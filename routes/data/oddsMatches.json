@@ -1,0 +1,4032 @@
+{
+  "updatedAt": "2024-06-25T13:25:01.447Z",
+  "data": [
+    {
+      "id": "90a14af80b2b043c9f18a8d9128ae407",
+      "sport_key": "soccer_china_superleague",
+      "sport_title": "Super League - China",
+      "commence_time": "2024-06-25T11:35:04Z",
+      "home_team": "Nantong Zhiyun FC",
+      "away_team": "Tianjin Jinmen Tiger FC",
+      "bookmakers": [
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-06-25T13:24:34Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:34Z",
+              "outcomes": [
+                {
+                  "name": "Nantong Zhiyun FC",
+                  "price": 1.18
+                },
+                {
+                  "name": "Tianjin Jinmen Tiger FC",
+                  "price": 22.78
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.91
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betclic",
+          "title": "Betclic",
+          "last_update": "2024-06-25T13:25:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:25:00Z",
+              "outcomes": [
+                {
+                  "name": "Nantong Zhiyun FC",
+                  "price": 1.09
+                },
+                {
+                  "name": "Tianjin Jinmen Tiger FC",
+                  "price": 65
+                },
+                {
+                  "name": "Draw",
+                  "price": 7.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "coolbet",
+          "title": "Coolbet",
+          "last_update": "2024-06-25T13:24:17Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:17Z",
+              "outcomes": [
+                {
+                  "name": "Nantong Zhiyun FC",
+                  "price": 1.1
+                },
+                {
+                  "name": "Tianjin Jinmen Tiger FC",
+                  "price": 66
+                },
+                {
+                  "name": "Draw",
+                  "price": 7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2024-06-25T13:24:24Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:24Z",
+              "outcomes": [
+                {
+                  "name": "Nantong Zhiyun FC",
+                  "price": 1.22
+                },
+                {
+                  "name": "Tianjin Jinmen Tiger FC",
+                  "price": 22
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nordicbet",
+          "title": "Nordic Bet",
+          "last_update": "2024-06-25T13:24:31Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:31Z",
+              "outcomes": [
+                {
+                  "name": "Nantong Zhiyun FC",
+                  "price": 1.09
+                },
+                {
+                  "name": "Tianjin Jinmen Tiger FC",
+                  "price": 56
+                },
+                {
+                  "name": "Draw",
+                  "price": 7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "sport888",
+          "title": "888sport",
+          "last_update": "2024-06-25T13:24:57Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:57Z",
+              "outcomes": [
+                {
+                  "name": "Nantong Zhiyun FC",
+                  "price": 1.1
+                },
+                {
+                  "name": "Tianjin Jinmen Tiger FC",
+                  "price": 67
+                },
+                {
+                  "name": "Draw",
+                  "price": 7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betfair_ex_eu",
+          "title": "Betfair",
+          "last_update": "2024-06-25T13:25:01Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:25:01Z",
+              "outcomes": [
+                {
+                  "name": "Nantong Zhiyun FC",
+                  "price": 1.17
+                },
+                {
+                  "name": "Tianjin Jinmen Tiger FC",
+                  "price": 55
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.7
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:25:01Z",
+              "outcomes": [
+                {
+                  "name": "Nantong Zhiyun FC",
+                  "price": 1.23
+                },
+                {
+                  "name": "Tianjin Jinmen Tiger FC",
+                  "price": 100
+                },
+                {
+                  "name": "Draw",
+                  "price": 7.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "livescorebet_eu",
+          "title": "LiveScore Bet (EU)",
+          "last_update": "2024-06-25T13:24:31Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:31Z",
+              "outcomes": [
+                {
+                  "name": "Nantong Zhiyun FC",
+                  "price": 1.12
+                },
+                {
+                  "name": "Tianjin Jinmen Tiger FC",
+                  "price": 36
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "unibet_eu",
+          "title": "Unibet",
+          "last_update": "2024-06-25T13:24:31Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:31Z",
+              "outcomes": [
+                {
+                  "name": "Nantong Zhiyun FC",
+                  "price": 1.12
+                },
+                {
+                  "name": "Tianjin Jinmen Tiger FC",
+                  "price": 41
+                },
+                {
+                  "name": "Draw",
+                  "price": 6
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4eea47e165ffbb4c84ab9302fa6dbac9",
+      "sport_key": "soccer_china_superleague",
+      "sport_title": "Super League - China",
+      "commence_time": "2024-06-25T11:35:25Z",
+      "home_team": "Shenzhen Peng City FC",
+      "away_team": "Zhejiang",
+      "bookmakers": [
+        {
+          "key": "coolbet",
+          "title": "Coolbet",
+          "last_update": "2024-06-25T13:24:17Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:17Z",
+              "outcomes": [
+                {
+                  "name": "Shenzhen Peng City FC",
+                  "price": 28
+                },
+                {
+                  "name": "Zhejiang",
+                  "price": 1.2
+                },
+                {
+                  "name": "Draw",
+                  "price": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betclic",
+          "title": "Betclic",
+          "last_update": "2024-06-25T13:25:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:25:00Z",
+              "outcomes": [
+                {
+                  "name": "Shenzhen Peng City FC",
+                  "price": 26
+                },
+                {
+                  "name": "Zhejiang",
+                  "price": 1.2
+                },
+                {
+                  "name": "Draw",
+                  "price": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-06-25T13:24:34Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:34Z",
+              "outcomes": [
+                {
+                  "name": "Shenzhen Peng City FC",
+                  "price": 16.06
+                },
+                {
+                  "name": "Zhejiang",
+                  "price": 1.22
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2024-06-25T13:24:24Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:24Z",
+              "outcomes": [
+                {
+                  "name": "Shenzhen Peng City FC",
+                  "price": 10.25
+                },
+                {
+                  "name": "Zhejiang",
+                  "price": 1.25
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nordicbet",
+          "title": "Nordic Bet",
+          "last_update": "2024-06-25T13:24:31Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:31Z",
+              "outcomes": [
+                {
+                  "name": "Shenzhen Peng City FC",
+                  "price": 26
+                },
+                {
+                  "name": "Zhejiang",
+                  "price": 1.2
+                },
+                {
+                  "name": "Draw",
+                  "price": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "sport888",
+          "title": "888sport",
+          "last_update": "2024-06-25T13:24:57Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:57Z",
+              "outcomes": [
+                {
+                  "name": "Shenzhen Peng City FC",
+                  "price": 23
+                },
+                {
+                  "name": "Zhejiang",
+                  "price": 1.2
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betfair_ex_eu",
+          "title": "Betfair",
+          "last_update": "2024-06-25T13:25:01Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:25:01Z",
+              "outcomes": [
+                {
+                  "name": "Shenzhen Peng City FC",
+                  "price": 34
+                },
+                {
+                  "name": "Zhejiang",
+                  "price": 1.25
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.3
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:25:01Z",
+              "outcomes": [
+                {
+                  "name": "Shenzhen Peng City FC",
+                  "price": 42
+                },
+                {
+                  "name": "Zhejiang",
+                  "price": 1.28
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "livescorebet_eu",
+          "title": "LiveScore Bet (EU)",
+          "last_update": "2024-06-25T13:24:31Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:31Z",
+              "outcomes": [
+                {
+                  "name": "Shenzhen Peng City FC",
+                  "price": 21
+                },
+                {
+                  "name": "Zhejiang",
+                  "price": 1.16
+                },
+                {
+                  "name": "Draw",
+                  "price": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "unibet_eu",
+          "title": "Unibet",
+          "last_update": "2024-06-25T13:24:31Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:31Z",
+              "outcomes": [
+                {
+                  "name": "Shenzhen Peng City FC",
+                  "price": 26
+                },
+                {
+                  "name": "Zhejiang",
+                  "price": 1.16
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0cbd74da971825fa0592d72f08d2d12d",
+      "sport_key": "soccer_china_superleague",
+      "sport_title": "Super League - China",
+      "commence_time": "2024-06-25T12:00:05Z",
+      "home_team": "Wuhan Three Towns",
+      "away_team": "Shanghai SIPG FC",
+      "bookmakers": [
+        {
+          "key": "coolbet",
+          "title": "Coolbet",
+          "last_update": "2024-06-25T13:24:17Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:17Z",
+              "outcomes": [
+                {
+                  "name": "Shanghai SIPG FC",
+                  "price": 1.03
+                },
+                {
+                  "name": "Wuhan Three Towns",
+                  "price": 50
+                },
+                {
+                  "name": "Draw",
+                  "price": 14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nordicbet",
+          "title": "Nordic Bet",
+          "last_update": "2024-06-25T13:24:31Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:31Z",
+              "outcomes": [
+                {
+                  "name": "Shanghai SIPG FC",
+                  "price": 1.02
+                },
+                {
+                  "name": "Wuhan Three Towns",
+                  "price": 41
+                },
+                {
+                  "name": "Draw",
+                  "price": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betclic",
+          "title": "Betclic",
+          "last_update": "2024-06-25T13:25:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:25:00Z",
+              "outcomes": [
+                {
+                  "name": "Shanghai SIPG FC",
+                  "price": 1.02
+                },
+                {
+                  "name": "Wuhan Three Towns",
+                  "price": 50
+                },
+                {
+                  "name": "Draw",
+                  "price": 10.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2024-06-25T13:24:24Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:24Z",
+              "outcomes": [
+                {
+                  "name": "Shanghai SIPG FC",
+                  "price": 1.03
+                },
+                {
+                  "name": "Wuhan Three Towns",
+                  "price": 40
+                },
+                {
+                  "name": "Draw",
+                  "price": 11.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "sport888",
+          "title": "888sport",
+          "last_update": "2024-06-25T13:24:57Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:57Z",
+              "outcomes": [
+                {
+                  "name": "Shanghai SIPG FC",
+                  "price": 1.03
+                },
+                {
+                  "name": "Wuhan Three Towns",
+                  "price": 67
+                },
+                {
+                  "name": "Draw",
+                  "price": 17
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betfair_ex_eu",
+          "title": "Betfair",
+          "last_update": "2024-06-25T13:25:01Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:25:01Z",
+              "outcomes": [
+                {
+                  "name": "Shanghai SIPG FC",
+                  "price": 1.04
+                },
+                {
+                  "name": "Wuhan Three Towns",
+                  "price": 140
+                },
+                {
+                  "name": "Draw",
+                  "price": 26
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:25:01Z",
+              "outcomes": [
+                {
+                  "name": "Shanghai SIPG FC",
+                  "price": 1.05
+                },
+                {
+                  "name": "Wuhan Three Towns",
+                  "price": 210
+                },
+                {
+                  "name": "Draw",
+                  "price": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "livescorebet_eu",
+          "title": "LiveScore Bet (EU)",
+          "last_update": "2024-06-25T13:24:31Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:31Z",
+              "outcomes": [
+                {
+                  "name": "Shanghai SIPG FC",
+                  "price": 1.02
+                },
+                {
+                  "name": "Wuhan Three Towns",
+                  "price": 51
+                },
+                {
+                  "name": "Draw",
+                  "price": 17
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "unibet_eu",
+          "title": "Unibet",
+          "last_update": "2024-06-25T13:24:31Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:31Z",
+              "outcomes": [
+                {
+                  "name": "Shanghai SIPG FC",
+                  "price": 1.02
+                },
+                {
+                  "name": "Wuhan Three Towns",
+                  "price": 67
+                },
+                {
+                  "name": "Draw",
+                  "price": 17
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d30e31303173a5724c8a8c118c4887e4",
+      "sport_key": "soccer_uefa_european_championship",
+      "sport_title": "UEFA Euro 2024",
+      "commence_time": "2024-06-25T16:00:00Z",
+      "home_team": "Netherlands",
+      "away_team": "Austria",
+      "bookmakers": [
+        {
+          "key": "onexbet",
+          "title": "1xBet",
+          "last_update": "2024-06-25T13:24:09Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:09Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4.25
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2.07
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.37
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "sport888",
+          "title": "888sport",
+          "last_update": "2024-06-25T13:24:34Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:34Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "coolbet",
+          "title": "Coolbet",
+          "last_update": "2024-06-25T13:24:35Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:35Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4.3
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2.08
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nordicbet",
+          "title": "Nordic Bet",
+          "last_update": "2024-06-25T13:24:56Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:56Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2.02
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betsson",
+          "title": "Betsson",
+          "last_update": "2024-06-25T13:24:57Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:57Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4.05
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2.05
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betfair_ex_eu",
+          "title": "Betfair",
+          "last_update": "2024-06-25T13:24:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:48Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4.3
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2.08
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.4
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:48Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4.4
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2.1
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.45
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "unibet_eu",
+          "title": "Unibet",
+          "last_update": "2024-06-25T13:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4.35
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2.05
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "livescorebet_eu",
+          "title": "LiveScore Bet (EU)",
+          "last_update": "2024-06-25T13:24:10Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:10Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4.25
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 1.96
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-06-25T13:24:25Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:25Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4.18
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2.03
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.39
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2024-06-25T13:24:44Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:44Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4.1
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2.01
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.26
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "williamhill",
+          "title": "William Hill",
+          "last_update": "2024-06-25T13:21:18Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:21:18Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2.05
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "marathonbet",
+          "title": "Marathon Bet",
+          "last_update": "2024-06-25T13:24:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:30Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4.2
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2.04
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.32
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betclic",
+          "title": "Betclic",
+          "last_update": "2024-06-25T13:24:57Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:57Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4.2
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2.05
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.35
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "everygame",
+          "title": "Everygame",
+          "last_update": "2024-06-25T13:24:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:47Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4.1
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "matchbook",
+          "title": "Matchbook",
+          "last_update": "2024-06-25T13:24:36Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:36Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4.3
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2.08
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.4
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:36Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4.4
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2.1
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.45
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-06-25T13:24:54Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:54Z",
+              "outcomes": [
+                {
+                  "name": "Austria",
+                  "price": 4.22
+                },
+                {
+                  "name": "Netherlands",
+                  "price": 2.04
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eecc1ab552df4c21c424e8b3bc0a9423",
+      "sport_key": "soccer_uefa_european_championship",
+      "sport_title": "UEFA Euro 2024",
+      "commence_time": "2024-06-25T16:00:00Z",
+      "home_team": "France",
+      "away_team": "Poland",
+      "bookmakers": [
+        {
+          "key": "onexbet",
+          "title": "1xBet",
+          "last_update": "2024-06-25T13:24:09Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:09Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.27
+                },
+                {
+                  "name": "Poland",
+                  "price": 13.2
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.55
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "sport888",
+          "title": "888sport",
+          "last_update": "2024-06-25T13:24:34Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:34Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.22
+                },
+                {
+                  "name": "Poland",
+                  "price": 12
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "coolbet",
+          "title": "Coolbet",
+          "last_update": "2024-06-25T13:24:35Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:35Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.26
+                },
+                {
+                  "name": "Poland",
+                  "price": 14
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betfair_ex_eu",
+          "title": "Betfair",
+          "last_update": "2024-06-25T13:24:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:48Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.27
+                },
+                {
+                  "name": "Poland",
+                  "price": 14.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.8
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:48Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.28
+                },
+                {
+                  "name": "Poland",
+                  "price": 15
+                },
+                {
+                  "name": "Draw",
+                  "price": 7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "unibet_eu",
+          "title": "Unibet",
+          "last_update": "2024-06-25T13:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:59Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.25
+                },
+                {
+                  "name": "Poland",
+                  "price": 14
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "livescorebet_eu",
+          "title": "LiveScore Bet (EU)",
+          "last_update": "2024-06-25T13:24:10Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:10Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.24
+                },
+                {
+                  "name": "Poland",
+                  "price": 14
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nordicbet",
+          "title": "Nordic Bet",
+          "last_update": "2024-06-25T13:24:56Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:56Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.22
+                },
+                {
+                  "name": "Poland",
+                  "price": 13.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betsson",
+          "title": "Betsson",
+          "last_update": "2024-06-25T13:24:57Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:57Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.23
+                },
+                {
+                  "name": "Poland",
+                  "price": 13.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-06-25T13:24:25Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:25Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.25
+                },
+                {
+                  "name": "Poland",
+                  "price": 13.16
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.53
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2024-06-25T13:24:44Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:44Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.22
+                },
+                {
+                  "name": "Poland",
+                  "price": 12.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "williamhill",
+          "title": "William Hill",
+          "last_update": "2024-06-25T13:21:18Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:21:18Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.22
+                },
+                {
+                  "name": "Poland",
+                  "price": 15
+                },
+                {
+                  "name": "Draw",
+                  "price": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "marathonbet",
+          "title": "Marathon Bet",
+          "last_update": "2024-06-25T13:24:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:30Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.25
+                },
+                {
+                  "name": "Poland",
+                  "price": 13
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.45
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betclic",
+          "title": "Betclic",
+          "last_update": "2024-06-25T13:24:57Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:57Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.26
+                },
+                {
+                  "name": "Poland",
+                  "price": 13
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "everygame",
+          "title": "Everygame",
+          "last_update": "2024-06-25T13:24:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:47Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.22
+                },
+                {
+                  "name": "Poland",
+                  "price": 13
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "matchbook",
+          "title": "Matchbook",
+          "last_update": "2024-06-25T13:24:36Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:36Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.27
+                },
+                {
+                  "name": "Poland",
+                  "price": 14.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.8
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:36Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.28
+                },
+                {
+                  "name": "Poland",
+                  "price": 15
+                },
+                {
+                  "name": "Draw",
+                  "price": 7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-06-25T13:24:54Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:54Z",
+              "outcomes": [
+                {
+                  "name": "France",
+                  "price": 1.25
+                },
+                {
+                  "name": "Poland",
+                  "price": 12.75
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "375f8cbf7c7b265efc53e65da77d0c5f",
+      "sport_key": "soccer_uefa_european_championship",
+      "sport_title": "UEFA Euro 2024",
+      "commence_time": "2024-06-25T19:00:00Z",
+      "home_team": "Denmark",
+      "away_team": "Serbia",
+      "bookmakers": [
+        {
+          "key": "onexbet",
+          "title": "1xBet",
+          "last_update": "2024-06-25T13:24:09Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:09Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.47
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.37
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.19
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "sport888",
+          "title": "888sport",
+          "last_update": "2024-06-25T13:24:34Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:34Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.3
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.2
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "coolbet",
+          "title": "Coolbet",
+          "last_update": "2024-06-25T13:24:35Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:35Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.4
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.4
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nordicbet",
+          "title": "Nordic Bet",
+          "last_update": "2024-06-25T13:24:56Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:56Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.4
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.2
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betsson",
+          "title": "Betsson",
+          "last_update": "2024-06-25T13:24:57Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:57Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.42
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.25
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betfair_ex_eu",
+          "title": "Betfair",
+          "last_update": "2024-06-25T13:24:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:48Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.46
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.45
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.25
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:48Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.48
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "unibet_eu",
+          "title": "Unibet",
+          "last_update": "2024-06-25T13:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.38
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.35
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "livescorebet_eu",
+          "title": "LiveScore Bet (EU)",
+          "last_update": "2024-06-25T13:24:10Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:10Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.32
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.3
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-06-25T13:24:25Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:25Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.44
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.32
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2024-06-25T13:24:44Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:44Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.29
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.28
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "williamhill",
+          "title": "William Hill",
+          "last_update": "2024-06-25T13:21:18Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:21:18Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.4
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.25
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "marathonbet",
+          "title": "Marathon Bet",
+          "last_update": "2024-06-25T13:24:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:30Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.43
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.32
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.14
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betclic",
+          "title": "Betclic",
+          "last_update": "2024-06-25T13:24:57Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:57Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.35
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.4
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "everygame",
+          "title": "Everygame",
+          "last_update": "2024-06-25T13:24:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:47Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.4
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.25
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.05
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "matchbook",
+          "title": "Matchbook",
+          "last_update": "2024-06-25T13:24:36Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:36Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.46
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.45
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.25
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:36Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.48
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-06-25T13:24:54Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:54Z",
+              "outcomes": [
+                {
+                  "name": "Denmark",
+                  "price": 2.38
+                },
+                {
+                  "name": "Serbia",
+                  "price": 3.33
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.17
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25bc3520f4846a775eb0d70c48f61e2a",
+      "sport_key": "soccer_uefa_european_championship",
+      "sport_title": "UEFA Euro 2024",
+      "commence_time": "2024-06-25T19:00:00Z",
+      "home_team": "England",
+      "away_team": "Slovenia",
+      "bookmakers": [
+        {
+          "key": "onexbet",
+          "title": "1xBet",
+          "last_update": "2024-06-25T13:24:09Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:09Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.33
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 11.9
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.54
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "sport888",
+          "title": "888sport",
+          "last_update": "2024-06-25T13:24:34Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:34Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.29
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 11
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "coolbet",
+          "title": "Coolbet",
+          "last_update": "2024-06-25T13:24:35Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:35Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.33
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 12
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nordicbet",
+          "title": "Nordic Bet",
+          "last_update": "2024-06-25T13:24:56Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:56Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.3
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 10.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betsson",
+          "title": "Betsson",
+          "last_update": "2024-06-25T13:24:57Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:57Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.31
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 11
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betfair_ex_eu",
+          "title": "Betfair",
+          "last_update": "2024-06-25T13:24:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:48Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.33
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 13
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.7
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:48Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.34
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 13.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "unibet_eu",
+          "title": "Unibet",
+          "last_update": "2024-06-25T13:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:59Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.3
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 11.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "livescorebet_eu",
+          "title": "LiveScore Bet (EU)",
+          "last_update": "2024-06-25T13:24:10Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:10Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.27
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 11
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-06-25T13:24:25Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:25Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.3
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 11.91
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.59
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2024-06-25T13:24:44Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:44Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.29
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 10.6
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "williamhill",
+          "title": "William Hill",
+          "last_update": "2024-06-25T13:21:18Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:21:18Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.3
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 12
+                },
+                {
+                  "name": "Draw",
+                  "price": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "marathonbet",
+          "title": "Marathon Bet",
+          "last_update": "2024-06-25T13:24:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:30Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.31
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 11.75
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.45
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betclic",
+          "title": "Betclic",
+          "last_update": "2024-06-25T13:24:57Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:57Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.32
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 11.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "everygame",
+          "title": "Everygame",
+          "last_update": "2024-06-25T13:24:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:47Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.28
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 11
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "matchbook",
+          "title": "Matchbook",
+          "last_update": "2024-06-25T13:24:36Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:36Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.33
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 13
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.7
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:36Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.34
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 13.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-06-25T13:24:54Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:54Z",
+              "outcomes": [
+                {
+                  "name": "England",
+                  "price": 1.31
+                },
+                {
+                  "name": "Slovenia",
+                  "price": 11.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.45
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "813e855f724a3f7ef6fdda0adc234176",
+      "sport_key": "soccer_brazil_serie_b",
+      "sport_title": "Brazil Série B",
+      "commence_time": "2024-06-25T22:00:00Z",
+      "home_team": "América Mineiro",
+      "away_team": "Avai",
+      "bookmakers": [
+        {
+          "key": "sport888",
+          "title": "888sport",
+          "last_update": "2024-06-25T13:23:09Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:09Z",
+              "outcomes": [
+                {
+                  "name": "América Mineiro",
+                  "price": 1.67
+                },
+                {
+                  "name": "Avai",
+                  "price": 5.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-06-25T13:24:56Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:56Z",
+              "outcomes": [
+                {
+                  "name": "América Mineiro",
+                  "price": 1.72
+                },
+                {
+                  "name": "Avai",
+                  "price": 5.46
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.57
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "marathonbet",
+          "title": "Marathon Bet",
+          "last_update": "2024-06-25T13:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:52Z",
+              "outcomes": [
+                {
+                  "name": "América Mineiro",
+                  "price": 1.69
+                },
+                {
+                  "name": "Avai",
+                  "price": 5.05
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.58
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2024-06-25T13:23:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:47Z",
+              "outcomes": [
+                {
+                  "name": "América Mineiro",
+                  "price": 1.67
+                },
+                {
+                  "name": "Avai",
+                  "price": 5.2
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.46
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betsson",
+          "title": "Betsson",
+          "last_update": "2024-06-25T13:24:43Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:43Z",
+              "outcomes": [
+                {
+                  "name": "América Mineiro",
+                  "price": 1.7
+                },
+                {
+                  "name": "Avai",
+                  "price": 5
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nordicbet",
+          "title": "Nordic Bet",
+          "last_update": "2024-06-25T13:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:52Z",
+              "outcomes": [
+                {
+                  "name": "América Mineiro",
+                  "price": 1.7
+                },
+                {
+                  "name": "Avai",
+                  "price": 5
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "williamhill",
+          "title": "William Hill",
+          "last_update": "2024-06-25T13:23:51Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:51Z",
+              "outcomes": [
+                {
+                  "name": "América Mineiro",
+                  "price": 1.7
+                },
+                {
+                  "name": "Avai",
+                  "price": 5
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betfair_ex_eu",
+          "title": "Betfair",
+          "last_update": "2024-06-25T13:24:05Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:05Z",
+              "outcomes": [
+                {
+                  "name": "América Mineiro",
+                  "price": 1.75
+                },
+                {
+                  "name": "Avai",
+                  "price": 5.8
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.75
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:05Z",
+              "outcomes": [
+                {
+                  "name": "América Mineiro",
+                  "price": 1.78
+                },
+                {
+                  "name": "Avai",
+                  "price": 6
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "unibet_eu",
+          "title": "Unibet",
+          "last_update": "2024-06-25T13:23:01Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:01Z",
+              "outcomes": [
+                {
+                  "name": "América Mineiro",
+                  "price": 1.65
+                },
+                {
+                  "name": "Avai",
+                  "price": 5.25
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "livescorebet_eu",
+          "title": "LiveScore Bet (EU)",
+          "last_update": "2024-06-25T13:24:18Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:18Z",
+              "outcomes": [
+                {
+                  "name": "América Mineiro",
+                  "price": 1.62
+                },
+                {
+                  "name": "Avai",
+                  "price": 5.1
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.45
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "matchbook",
+          "title": "Matchbook",
+          "last_update": "2024-06-25T13:24:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:49Z",
+              "outcomes": [
+                {
+                  "name": "América Mineiro",
+                  "price": 1.75
+                },
+                {
+                  "name": "Avai",
+                  "price": 5.9
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.75
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:49Z",
+              "outcomes": [
+                {
+                  "name": "América Mineiro",
+                  "price": 1.77
+                },
+                {
+                  "name": "Avai",
+                  "price": 6
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-06-25T13:23:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:47Z",
+              "outcomes": [
+                {
+                  "name": "América Mineiro",
+                  "price": 1.67
+                },
+                {
+                  "name": "Avai",
+                  "price": 4.9
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "coolbet",
+          "title": "Coolbet",
+          "last_update": "2024-06-25T13:24:43Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:43Z",
+              "outcomes": [
+                {
+                  "name": "América Mineiro",
+                  "price": 1.67
+                },
+                {
+                  "name": "Avai",
+                  "price": 5.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b84dce2528b5c66a064e6da78819ce97",
+      "sport_key": "soccer_conmebol_copa_america",
+      "sport_title": "Copa América",
+      "commence_time": "2024-06-25T22:00:00Z",
+      "home_team": "Peru",
+      "away_team": "Canada",
+      "bookmakers": [
+        {
+          "key": "onexbet",
+          "title": "1xBet",
+          "last_update": "2024-06-25T13:22:26Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:22:26Z",
+              "outcomes": [
+                {
+                  "name": "Canada",
+                  "price": 2.35
+                },
+                {
+                  "name": "Peru",
+                  "price": 3.31
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.29
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "williamhill",
+          "title": "William Hill",
+          "last_update": "2024-06-25T13:20:13Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:20:13Z",
+              "outcomes": [
+                {
+                  "name": "Canada",
+                  "price": 2.25
+                },
+                {
+                  "name": "Peru",
+                  "price": 3.25
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nordicbet",
+          "title": "Nordic Bet",
+          "last_update": "2024-06-25T13:24:38Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:38Z",
+              "outcomes": [
+                {
+                  "name": "Canada",
+                  "price": 2.3
+                },
+                {
+                  "name": "Peru",
+                  "price": 3.4
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betsson",
+          "title": "Betsson",
+          "last_update": "2024-06-25T13:24:28Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:28Z",
+              "outcomes": [
+                {
+                  "name": "Canada",
+                  "price": 2.32
+                },
+                {
+                  "name": "Peru",
+                  "price": 3.35
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "coolbet",
+          "title": "Coolbet",
+          "last_update": "2024-06-25T13:24:53Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:53Z",
+              "outcomes": [
+                {
+                  "name": "Canada",
+                  "price": 2.35
+                },
+                {
+                  "name": "Peru",
+                  "price": 3.35
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "livescorebet_eu",
+          "title": "LiveScore Bet (EU)",
+          "last_update": "2024-06-25T13:24:31Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:31Z",
+              "outcomes": [
+                {
+                  "name": "Canada",
+                  "price": 2.28
+                },
+                {
+                  "name": "Peru",
+                  "price": 3.15
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-06-25T13:24:13Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:13Z",
+              "outcomes": [
+                {
+                  "name": "Canada",
+                  "price": 2.38
+                },
+                {
+                  "name": "Peru",
+                  "price": 3.44
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.17
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betfair_ex_eu",
+          "title": "Betfair",
+          "last_update": "2024-06-25T13:24:09Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:09Z",
+              "outcomes": [
+                {
+                  "name": "Canada",
+                  "price": 2.4
+                },
+                {
+                  "name": "Peru",
+                  "price": 3.55
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.25
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:09Z",
+              "outcomes": [
+                {
+                  "name": "Canada",
+                  "price": 2.42
+                },
+                {
+                  "name": "Peru",
+                  "price": 3.6
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-06-25T13:24:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:30Z",
+              "outcomes": [
+                {
+                  "name": "Canada",
+                  "price": 2.38
+                },
+                {
+                  "name": "Peru",
+                  "price": 3.35
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betclic",
+          "title": "Betclic",
+          "last_update": "2024-06-25T13:24:20Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:20Z",
+              "outcomes": [
+                {
+                  "name": "Canada",
+                  "price": 2.31
+                },
+                {
+                  "name": "Peru",
+                  "price": 3.28
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "everygame",
+          "title": "Everygame",
+          "last_update": "2024-06-25T13:24:58Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:58Z",
+              "outcomes": [
+                {
+                  "name": "Canada",
+                  "price": 2.3
+                },
+                {
+                  "name": "Peru",
+                  "price": 3.4
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "matchbook",
+          "title": "Matchbook",
+          "last_update": "2024-06-25T13:24:02Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:02Z",
+              "outcomes": [
+                {
+                  "name": "Canada",
+                  "price": 2.36
+                },
+                {
+                  "name": "Peru",
+                  "price": 3.6
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.25
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:02Z",
+              "outcomes": [
+                {
+                  "name": "Canada",
+                  "price": 2.4
+                },
+                {
+                  "name": "Peru",
+                  "price": 3.65
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6c1c7d9ea08061f5753c32a9180fa635",
+      "sport_key": "soccer_brazil_serie_b",
+      "sport_title": "Brazil Série B",
+      "commence_time": "2024-06-25T22:00:00Z",
+      "home_team": "Mirassol",
+      "away_team": "Santos",
+      "bookmakers": [
+        {
+          "key": "sport888",
+          "title": "888sport",
+          "last_update": "2024-06-25T13:23:09Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:09Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.62
+                },
+                {
+                  "name": "Santos",
+                  "price": 2.8
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.88
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "marathonbet",
+          "title": "Marathon Bet",
+          "last_update": "2024-06-25T13:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.64
+                },
+                {
+                  "name": "Santos",
+                  "price": 2.75
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.06
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-06-25T13:24:56Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:56Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.83
+                },
+                {
+                  "name": "Santos",
+                  "price": 2.98
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.86
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2024-06-25T13:23:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:47Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.69
+                },
+                {
+                  "name": "Santos",
+                  "price": 2.75
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.9
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "onexbet",
+          "title": "1xBet",
+          "last_update": "2024-06-25T13:24:19Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:19Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.64
+                },
+                {
+                  "name": "Santos",
+                  "price": 2.75
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.06
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nordicbet",
+          "title": "Nordic Bet",
+          "last_update": "2024-06-25T13:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.65
+                },
+                {
+                  "name": "Santos",
+                  "price": 2.85
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.95
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betsson",
+          "title": "Betsson",
+          "last_update": "2024-06-25T13:24:43Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:43Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.65
+                },
+                {
+                  "name": "Santos",
+                  "price": 2.85
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.95
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "williamhill",
+          "title": "William Hill",
+          "last_update": "2024-06-25T13:23:51Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:51Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.6
+                },
+                {
+                  "name": "Santos",
+                  "price": 2.75
+                },
+                {
+                  "name": "Draw",
+                  "price": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betfair_ex_eu",
+          "title": "Betfair",
+          "last_update": "2024-06-25T13:24:05Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:05Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.84
+                },
+                {
+                  "name": "Santos",
+                  "price": 3.05
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.98
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:05Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.94
+                },
+                {
+                  "name": "Santos",
+                  "price": 3.2
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.05
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "unibet_eu",
+          "title": "Unibet",
+          "last_update": "2024-06-25T13:23:01Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:01Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.7
+                },
+                {
+                  "name": "Santos",
+                  "price": 2.75
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.9
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "livescorebet_eu",
+          "title": "LiveScore Bet (EU)",
+          "last_update": "2024-06-25T13:24:18Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:18Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.63
+                },
+                {
+                  "name": "Santos",
+                  "price": 2.7
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.85
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "matchbook",
+          "title": "Matchbook",
+          "last_update": "2024-06-25T13:24:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:49Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.84
+                },
+                {
+                  "name": "Santos",
+                  "price": 3.05
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.98
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:49Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.94
+                },
+                {
+                  "name": "Santos",
+                  "price": 3.15
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.05
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-06-25T13:23:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:47Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.55
+                },
+                {
+                  "name": "Santos",
+                  "price": 2.74
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.91
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "coolbet",
+          "title": "Coolbet",
+          "last_update": "2024-06-25T13:24:43Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:43Z",
+              "outcomes": [
+                {
+                  "name": "Mirassol",
+                  "price": 2.7
+                },
+                {
+                  "name": "Santos",
+                  "price": 2.8
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7c606113bb2d98135edcb6c6b947957b",
+      "sport_key": "soccer_brazil_serie_b",
+      "sport_title": "Brazil Série B",
+      "commence_time": "2024-06-26T00:00:00Z",
+      "home_team": "Ponte Preta",
+      "away_team": "Ceará",
+      "bookmakers": [
+        {
+          "key": "sport888",
+          "title": "888sport",
+          "last_update": "2024-06-25T13:23:09Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:09Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 2.88
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.6
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.88
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "marathonbet",
+          "title": "Marathon Bet",
+          "last_update": "2024-06-25T13:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 2.86
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.58
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.02
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-06-25T13:24:56Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:56Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 3.11
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.77
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.81
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2024-06-25T13:23:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:47Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 2.9
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.55
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.92
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "onexbet",
+          "title": "1xBet",
+          "last_update": "2024-06-25T13:24:19Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:19Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 2.86
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.58
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.02
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nordicbet",
+          "title": "Nordic Bet",
+          "last_update": "2024-06-25T13:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 2.95
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.55
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.95
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betsson",
+          "title": "Betsson",
+          "last_update": "2024-06-25T13:24:43Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:43Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 2.95
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.55
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.95
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "williamhill",
+          "title": "William Hill",
+          "last_update": "2024-06-25T13:23:51Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:51Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 2.88
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betfair_ex_eu",
+          "title": "Betfair",
+          "last_update": "2024-06-25T13:24:05Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:05Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 3.2
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.72
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.98
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:05Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 3.35
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.82
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.05
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "unibet_eu",
+          "title": "Unibet",
+          "last_update": "2024-06-25T13:23:01Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:01Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 2.8
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.75
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "livescorebet_eu",
+          "title": "LiveScore Bet (EU)",
+          "last_update": "2024-06-25T13:24:18Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:18Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 2.75
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.7
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "matchbook",
+          "title": "Matchbook",
+          "last_update": "2024-06-25T13:24:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:49Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 3.1
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.7
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.86
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-06-25T13:24:49Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 3.4
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.88
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-06-25T13:23:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:23:47Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 2.91
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.41
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.93
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "coolbet",
+          "title": "Coolbet",
+          "last_update": "2024-06-25T13:24:43Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-06-25T13:24:43Z",
+              "outcomes": [
+                {
+                  "name": "Ceará",
+                  "price": 2.95
+                },
+                {
+                  "name": "Ponte Preta",
+                  "price": 2.6
+                },
+                {
+                  "name": "Draw",
+                  "price": 2.9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

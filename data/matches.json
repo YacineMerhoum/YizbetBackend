@@ -1,0 +1,269 @@
+{
+  "updatedAt": "2024-06-25T18:00:15.146Z",
+  "matches": [
+    {
+      "area": {
+        "id": 2077,
+        "name": "Europe",
+        "code": "EUR",
+        "flag": "https://crests.football-data.org/EUR.svg"
+      },
+      "competition": {
+        "id": 2018,
+        "name": "European Championship",
+        "code": "EC",
+        "type": "CUP",
+        "emblem": "https://crests.football-data.org/ec.png"
+      },
+      "season": {
+        "id": 1537,
+        "startDate": "2024-06-14",
+        "endDate": "2024-07-14",
+        "currentMatchday": 3,
+        "winner": null
+      },
+      "id": 428761,
+      "utcDate": "2024-06-25T16:00:00Z",
+      "status": "FINISHED",
+      "matchday": 3,
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_D",
+      "lastUpdated": "2024-06-25T19:56:14Z",
+      "homeTeam": {
+        "id": 8601,
+        "name": "Netherlands",
+        "shortName": "Netherlands",
+        "tla": "NED",
+        "crest": "https://crests.football-data.org/8601.svg"
+      },
+      "awayTeam": {
+        "id": 816,
+        "name": "Austria",
+        "shortName": "Austria",
+        "tla": "AUT",
+        "crest": "https://crests.football-data.org/816.svg"
+      },
+      "score": {
+        "winner": "AWAY_TEAM",
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": 2,
+          "away": 3
+        },
+        "halfTime": {
+          "home": 0,
+          "away": 1
+        }
+      },
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "referees": [
+        {
+          "id": 43954,
+          "name": "Ivan Kružliak",
+          "type": "REFEREE",
+          "nationality": "Slovakia"
+        }
+      ]
+    },
+    {
+      "area": {
+        "id": 2077,
+        "name": "Europe",
+        "code": "EUR",
+        "flag": "https://crests.football-data.org/EUR.svg"
+      },
+      "competition": {
+        "id": 2018,
+        "name": "European Championship",
+        "code": "EC",
+        "type": "CUP",
+        "emblem": "https://crests.football-data.org/ec.png"
+      },
+      "season": {
+        "id": 1537,
+        "startDate": "2024-06-14",
+        "endDate": "2024-07-14",
+        "currentMatchday": 3,
+        "winner": null
+      },
+      "id": 428760,
+      "utcDate": "2024-06-25T16:00:00Z",
+      "status": "FINISHED",
+      "matchday": 3,
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_D",
+      "lastUpdated": "2024-06-25T19:56:13Z",
+      "homeTeam": {
+        "id": 773,
+        "name": "France",
+        "shortName": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg"
+      },
+      "awayTeam": {
+        "id": 794,
+        "name": "Poland",
+        "shortName": "Poland",
+        "tla": "POL",
+        "crest": "https://crests.football-data.org/794.svg"
+      },
+      "score": {
+        "winner": "DRAW",
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": 1,
+          "away": 1
+        },
+        "halfTime": {
+          "home": 0,
+          "away": 0
+        }
+      },
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "referees": [
+        {
+          "id": 11079,
+          "name": "Marco Guida",
+          "type": "REFEREE",
+          "nationality": "Italy"
+        }
+      ]
+    },
+    {
+      "area": {
+        "id": 2077,
+        "name": "Europe",
+        "code": "EUR",
+        "flag": "https://crests.football-data.org/EUR.svg"
+      },
+      "competition": {
+        "id": 2018,
+        "name": "European Championship",
+        "code": "EC",
+        "type": "CUP",
+        "emblem": "https://crests.football-data.org/ec.png"
+      },
+      "season": {
+        "id": 1537,
+        "startDate": "2024-06-14",
+        "endDate": "2024-07-14",
+        "currentMatchday": 3,
+        "winner": null
+      },
+      "id": 428755,
+      "utcDate": "2024-06-25T19:00:00Z",
+      "status": "TIMED",
+      "matchday": 3,
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_C",
+      "lastUpdated": "2024-06-25T19:56:43Z",
+      "homeTeam": {
+        "id": 770,
+        "name": "England",
+        "shortName": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg"
+      },
+      "awayTeam": {
+        "id": 777,
+        "name": "Slovenia",
+        "shortName": "Slovenia",
+        "tla": "SVN",
+        "crest": "https://crests.football-data.org/777.svg"
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "referees": [
+        {
+          "id": 9374,
+          "name": "Clément Turpin",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
+    },
+    {
+      "area": {
+        "id": 2077,
+        "name": "Europe",
+        "code": "EUR",
+        "flag": "https://crests.football-data.org/EUR.svg"
+      },
+      "competition": {
+        "id": 2018,
+        "name": "European Championship",
+        "code": "EC",
+        "type": "CUP",
+        "emblem": "https://crests.football-data.org/ec.png"
+      },
+      "season": {
+        "id": 1537,
+        "startDate": "2024-06-14",
+        "endDate": "2024-07-14",
+        "currentMatchday": 3,
+        "winner": null
+      },
+      "id": 428754,
+      "utcDate": "2024-06-25T19:00:00Z",
+      "status": "TIMED",
+      "matchday": 3,
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_C",
+      "lastUpdated": "2024-06-25T19:56:43Z",
+      "homeTeam": {
+        "id": 782,
+        "name": "Denmark",
+        "shortName": "Denmark",
+        "tla": "DEN",
+        "crest": "https://crests.football-data.org/782.svg"
+      },
+      "awayTeam": {
+        "id": 780,
+        "name": "Serbia",
+        "shortName": "Serbia",
+        "tla": "SRB",
+        "crest": "https://crests.football-data.org/780.svg"
+      },
+      "score": {
+        "winner": null,
+        "duration": "REGULAR",
+        "fullTime": {
+          "home": null,
+          "away": null
+        },
+        "halfTime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "odds": {
+        "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+      },
+      "referees": [
+        {
+          "id": 43918,
+          "name": "François Letexier",
+          "type": "REFEREE",
+          "nationality": "France"
+        }
+      ]
+    }
+  ]
+}
