@@ -1,5 +1,3 @@
-// EURO 2024 MATCHS 
-
 const fs = require("fs");
 const path = require("path");
 const express = require("express");
@@ -13,6 +11,7 @@ router.use("/data", express.static(dataDir));
 
 async function fetchDataAndSaveToFile() {
   try {
+    console.log("Fetching data from API...");
     const response = await axios.get(
       "https://api.football-data.org/v4/competitions/EC/matches",
       {
@@ -28,40 +27,42 @@ async function fetchDataAndSaveToFile() {
       data: data,
     };
 
-    const dataDir = path.resolve(__dirname, "data");
     if (!fs.existsSync(dataDir)) {
-      fs.mkdirSync(dataDir);
+      console.log(`Creating directory: ${dataDir}`);
+      fs.mkdirSync(dataDir, { recursive: true });
     }
 
     const filePath = path.join(dataDir, "matchesRoute.json");
+    console.log(`Saving data to ${filePath}...`);
     fs.writeFileSync(filePath, JSON.stringify(updatedData, null, 2));
-    console.log(`Données enregistrées dans ${filePath}`);
+    console.log(`Data saved successfully to ${filePath}`);
   } catch (error) {
     console.error(
-      "Erreur lors de la récupération et de l'enregistrement des données :",
+      "Error fetching and saving data:",
       error
     );
   }
 }
-
-cron.schedule("0 0 * * *", () => {
+// cron.schedule('*/10 * * * * *', () => {
+cron.schedule('0 * * * *', () => {
   console.log(
-    "Exécution de la tâche planifiée : récupération des données de la totalité de leuro24"
+    "Executing scheduled task: fetching EURO 2024 data"
   );
   fetchDataAndSaveToFile();
 });
 
 router.get("/matches", (req, res) => {
   try {
-    const filePath = path.join(__dirname, "data", "matchesRoute.json");
+    const filePath = path.join(dataDir, "matchesRoute.json");
+    console.log(`Reading data from ${filePath}...`);
     const data = fs.readFileSync(filePath, "utf-8");
     res.json(JSON.parse(data));
   } catch (error) {
     console.error(
-      "Erreur lors de la récupération des données depuis le fichier JSON :",
+      "Error reading data from JSON file:",
       error
     );
-    res.status(500).send("Erreur lors de la récupération des données");
+    res.status(500).send("Error retrieving data");
   }
 });
 

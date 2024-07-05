@@ -4,6 +4,9 @@ const express = require('express');
 const axios = require('axios');
 const cron = require('node-cron');
 const mysql = require('mysql');
+const cors = require('cors');
+const bodyParser = require('body-parser');
+const bcrypt = require('bcrypt');
 
 const app = express();
 const PORT = 3007;
@@ -23,12 +26,59 @@ connection.connect((err) => {
   console.log('Connecté à la base de données MySQL !');
 });
 
+app.use(cors());
+app.use(bodyParser.json());
+
+app.post('/register', async (req, res) => {
+  const { email, pseudo, dob, uid , password, google } = req.body;
+
+  if (google) {
+    try {
+      // Insérer les données dans la base de données
+      const query = 'INSERT INTO Users (email, pseudo, uid) VALUES (?, ?, ?)';
+      connection.query(query, [email, pseudo, uid], (err, results) => {
+        if (err) {
+          console.error('Erreur lors de l\'insertion des données :', err);
+          res.status(500).json({ error: 'Erreur lors de l\'inscription' });
+          return;
+        }
+        res.status(201).json({ message: 'Inscription réussie !' });
+      });
+    } catch (error) {
+      console.error('Erreur lors du hachage du mot de passe :', error);
+      res.status(500).json({ error: 'Erreur lors de l\'inscription' });
+    }
+  }else{
+    try {
+      // Hachage du mot de passe
+      const hashedPassword = await bcrypt.hash(password, 10);
+
+      // Insérer les données dans la base de données
+      const query = 'INSERT INTO Users (email, pseudo, dob, uid, password) VALUES (?, ?, ?, ?, ?)';
+      connection.query(query, [email, pseudo, dob, uid, hashedPassword], (err, results) => {
+        if (err) {
+          console.error('Erreur lors de l\'insertion des données :', err);
+          res.status(500).json({ error: 'Erreur lors de l\'inscription' });
+          return;
+        }
+        res.status(201).json({ message: 'Inscription réussie !' });
+      });
+    } catch (error) {
+      console.error('Erreur lors du hachage du mot de passe :', error);
+      res.status(500).json({ error: 'Erreur lors de l\'inscription' });
+    }
+  }
+});
+
 // Chargement des routes
 const matchesRoute = require('./routes/matchesRoute');
 app.use(matchesRoute, express.json());
 
 // Middleware pour servir des fichiers statiques depuis le dossier 'data'
 app.use('/data', express.static(path.join(__dirname, 'data')));
+
+
+
 
 // Endpoint pour récupérer les données des matches depuis l'API
 async function fetchMatchesData() {
@@ -79,7 +129,7 @@ async function fetchAndProcessMatchesData() {
 
 // POUR TOUTES LES 10 SECONDE ICI => cron.schedule('*/10 * * * * *', () => {
 
-// toutes les heures actuellement !!!
+
 cron.schedule('0 * * * *', () => {
   console.log('Exécution de la tâche planifiée : récupération des données des matches du jour !');
   fetchAndProcessMatchesData();
