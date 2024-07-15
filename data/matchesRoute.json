@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2024-07-05T11:00:00.623Z",
+  "updatedAt": "2024-07-15T11:00:01.270Z",
   "data": {
     "filters": {
       "season": "2024"
@@ -8,7 +8,7 @@
       "count": 51,
       "first": "2024-06-14",
       "last": "2024-07-14",
-      "played": 44
+      "played": 51
     },
     "competition": {
       "id": 2018,
@@ -36,8 +36,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428747,
         "utcDate": "2024-06-14T19:00:00Z",
@@ -45,7 +57,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2024-07-03T08:34:03Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 759,
           "name": "Germany",
@@ -102,8 +114,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428746,
         "utcDate": "2024-06-15T13:00:00Z",
@@ -111,7 +135,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2024-07-03T08:34:03Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 827,
           "name": "Hungary",
@@ -168,8 +192,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428753,
         "utcDate": "2024-06-15T16:00:00Z",
@@ -177,7 +213,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_B",
-        "lastUpdated": "2024-07-03T08:34:03Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 760,
           "name": "Spain",
@@ -234,8 +270,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428752,
         "utcDate": "2024-06-15T19:00:00Z",
@@ -243,7 +291,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_B",
-        "lastUpdated": "2024-07-03T08:34:03Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 784,
           "name": "Italy",
@@ -300,8 +348,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428765,
         "utcDate": "2024-06-16T13:00:00Z",
@@ -309,7 +369,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2024-07-03T08:34:03Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 794,
           "name": "Poland",
@@ -366,8 +426,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428758,
         "utcDate": "2024-06-16T16:00:00Z",
@@ -375,7 +447,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_C",
-        "lastUpdated": "2024-07-03T08:34:03Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 777,
           "name": "Slovenia",
@@ -432,8 +504,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428759,
         "utcDate": "2024-06-16T19:00:00Z",
@@ -441,7 +525,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_C",
-        "lastUpdated": "2024-07-03T08:34:03Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 780,
           "name": "Serbia",
@@ -498,8 +582,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428770,
         "utcDate": "2024-06-17T13:00:00Z",
@@ -507,7 +603,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2024-07-03T08:34:03Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 811,
           "name": "Romania",
@@ -564,8 +660,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428771,
         "utcDate": "2024-06-17T16:00:00Z",
@@ -573,7 +681,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2024-07-03T08:34:03Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 805,
           "name": "Belgium",
@@ -630,8 +738,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428764,
         "utcDate": "2024-06-17T19:00:00Z",
@@ -639,7 +759,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2024-07-03T08:34:03Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 816,
           "name": "Austria",
@@ -696,8 +816,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428776,
         "utcDate": "2024-06-18T16:00:00Z",
@@ -705,7 +837,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2024-07-03T08:34:03Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 803,
           "name": "Turkey",
@@ -762,8 +894,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428777,
         "utcDate": "2024-06-18T19:00:00Z",
@@ -771,7 +915,7 @@
         "matchday": 1,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2024-07-03T08:34:04Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 765,
           "name": "Portugal",
@@ -828,8 +972,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428751,
         "utcDate": "2024-06-19T13:00:00Z",
@@ -837,7 +993,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_B",
-        "lastUpdated": "2024-07-03T08:34:04Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 799,
           "name": "Croatia",
@@ -894,8 +1050,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428744,
         "utcDate": "2024-06-19T16:00:00Z",
@@ -903,7 +1071,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2024-07-03T08:34:04Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 759,
           "name": "Germany",
@@ -960,8 +1128,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428745,
         "utcDate": "2024-06-19T19:00:00Z",
@@ -969,7 +1149,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2024-07-03T08:34:04Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 8873,
           "name": "Scotland",
@@ -1026,8 +1206,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428756,
         "utcDate": "2024-06-20T13:00:00Z",
@@ -1035,7 +1227,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_C",
-        "lastUpdated": "2024-07-03T08:34:04Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 777,
           "name": "Slovenia",
@@ -1092,8 +1284,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428757,
         "utcDate": "2024-06-20T16:00:00Z",
@@ -1101,7 +1305,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_C",
-        "lastUpdated": "2024-07-03T08:34:04Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 782,
           "name": "Denmark",
@@ -1158,8 +1362,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428750,
         "utcDate": "2024-06-20T19:00:00Z",
@@ -1167,7 +1383,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_B",
-        "lastUpdated": "2024-07-03T08:34:04Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 760,
           "name": "Spain",
@@ -1224,8 +1440,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428769,
         "utcDate": "2024-06-21T13:00:00Z",
@@ -1233,7 +1461,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2024-07-03T08:34:04Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 768,
           "name": "Slovakia",
@@ -1290,8 +1518,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428763,
         "utcDate": "2024-06-21T16:00:00Z",
@@ -1299,7 +1539,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2024-07-03T08:34:04Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 794,
           "name": "Poland",
@@ -1356,8 +1596,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428762,
         "utcDate": "2024-06-21T19:00:00Z",
@@ -1365,7 +1617,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2024-07-03T08:34:04Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 8601,
           "name": "Netherlands",
@@ -1422,8 +1674,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428775,
         "utcDate": "2024-06-22T13:00:00Z",
@@ -1431,7 +1695,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2024-07-03T08:34:05Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 1978,
           "name": "Georgia",
@@ -1488,8 +1752,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428774,
         "utcDate": "2024-06-22T16:00:00Z",
@@ -1497,7 +1773,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2024-07-03T08:34:05Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 803,
           "name": "Turkey",
@@ -1554,8 +1830,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428768,
         "utcDate": "2024-06-22T19:00:00Z",
@@ -1563,7 +1851,7 @@
         "matchday": 2,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2024-07-03T08:34:05Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 805,
           "name": "Belgium",
@@ -1620,8 +1908,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428742,
         "utcDate": "2024-06-23T19:00:00Z",
@@ -1629,7 +1929,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2024-07-03T08:34:05Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 8873,
           "name": "Scotland",
@@ -1686,8 +1986,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428743,
         "utcDate": "2024-06-23T19:00:00Z",
@@ -1695,7 +2007,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_A",
-        "lastUpdated": "2024-07-03T08:34:05Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 788,
           "name": "Switzerland",
@@ -1752,8 +2064,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428748,
         "utcDate": "2024-06-24T19:00:00Z",
@@ -1761,7 +2085,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_B",
-        "lastUpdated": "2024-07-03T08:25:37Z",
+        "lastUpdated": "2024-07-06T00:29:33Z",
         "homeTeam": {
           "id": 1065,
           "name": "Albania",
@@ -1818,8 +2142,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428749,
         "utcDate": "2024-06-24T19:00:00Z",
@@ -1827,7 +2163,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_B",
-        "lastUpdated": "2024-07-03T08:34:05Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 799,
           "name": "Croatia",
@@ -1884,8 +2220,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428760,
         "utcDate": "2024-06-25T16:00:00Z",
@@ -1893,7 +2241,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2024-07-03T08:34:05Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 773,
           "name": "France",
@@ -1950,8 +2298,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428761,
         "utcDate": "2024-06-25T16:00:00Z",
@@ -1959,7 +2319,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_D",
-        "lastUpdated": "2024-07-03T08:34:05Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 8601,
           "name": "Netherlands",
@@ -2016,8 +2376,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428754,
         "utcDate": "2024-06-25T19:00:00Z",
@@ -2025,7 +2397,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_C",
-        "lastUpdated": "2024-07-03T08:34:05Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 782,
           "name": "Denmark",
@@ -2082,8 +2454,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428755,
         "utcDate": "2024-06-25T19:00:00Z",
@@ -2091,7 +2475,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_C",
-        "lastUpdated": "2024-07-03T08:34:05Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 770,
           "name": "England",
@@ -2148,8 +2532,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428766,
         "utcDate": "2024-06-26T16:00:00Z",
@@ -2157,7 +2553,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2024-07-03T08:34:05Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 790,
           "name": "Ukraine",
@@ -2214,8 +2610,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428767,
         "utcDate": "2024-06-26T16:00:00Z",
@@ -2223,7 +2631,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_E",
-        "lastUpdated": "2024-07-03T08:34:05Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 768,
           "name": "Slovakia",
@@ -2280,8 +2688,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428772,
         "utcDate": "2024-06-26T19:00:00Z",
@@ -2289,7 +2709,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2024-07-03T08:34:06Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 798,
           "name": "Czechia",
@@ -2346,8 +2766,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428773,
         "utcDate": "2024-06-26T19:00:00Z",
@@ -2355,7 +2787,7 @@
         "matchday": 3,
         "stage": "GROUP_STAGE",
         "group": "GROUP_F",
-        "lastUpdated": "2024-07-03T08:34:06Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 1978,
           "name": "Georgia",
@@ -2412,8 +2844,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428791,
         "utcDate": "2024-06-29T16:00:00Z",
@@ -2421,7 +2865,7 @@
         "matchday": 4,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2024-07-03T08:34:06Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 788,
           "name": "Switzerland",
@@ -2478,8 +2922,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428792,
         "utcDate": "2024-06-29T19:00:00Z",
@@ -2487,7 +2943,7 @@
         "matchday": 4,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2024-07-03T08:34:06Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 759,
           "name": "Germany",
@@ -2544,8 +3000,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428789,
         "utcDate": "2024-06-30T16:00:00Z",
@@ -2553,7 +3021,7 @@
         "matchday": 4,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2024-07-03T08:34:05Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 770,
           "name": "England",
@@ -2618,8 +3086,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428790,
         "utcDate": "2024-06-30T19:00:00Z",
@@ -2627,7 +3107,7 @@
         "matchday": 4,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2024-07-03T08:34:06Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 760,
           "name": "Spain",
@@ -2684,8 +3164,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428787,
         "utcDate": "2024-07-01T16:00:00Z",
@@ -2693,7 +3185,7 @@
         "matchday": 4,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2024-07-03T08:34:06Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 773,
           "name": "France",
@@ -2750,8 +3242,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428788,
         "utcDate": "2024-07-01T19:00:00Z",
@@ -2759,7 +3263,7 @@
         "matchday": 4,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2024-07-03T08:34:05Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 765,
           "name": "Portugal",
@@ -2828,8 +3332,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428786,
         "utcDate": "2024-07-02T16:00:00Z",
@@ -2837,7 +3353,7 @@
         "matchday": 4,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2024-07-03T09:25:17Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 811,
           "name": "Romania",
@@ -2894,8 +3410,20 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428785,
         "utcDate": "2024-07-02T19:00:00Z",
@@ -2903,7 +3431,7 @@
         "matchday": 4,
         "stage": "LAST_16",
         "group": null,
-        "lastUpdated": "2024-07-03T08:34:06Z",
+        "lastUpdated": "2024-07-06T15:20:53Z",
         "homeTeam": {
           "id": 816,
           "name": "Austria",
@@ -2960,16 +3488,28 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 495401,
         "utcDate": "2024-07-05T16:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 5,
         "stage": "QUARTER_FINALS",
         "group": null,
-        "lastUpdated": "2024-07-02T10:20:49Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 760,
           "name": "Spain",
@@ -2985,21 +3525,36 @@
           "crest": "https://crests.football-data.org/759.svg"
         },
         "score": {
-          "winner": null,
-          "duration": "REGULAR",
+          "winner": "HOME_TEAM",
+          "duration": "EXTRA_TIME",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
+          },
+          "regularTime": {
+            "home": 1,
+            "away": 1
+          },
+          "extraTime": {
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11580,
+            "name": "Anthony Taylor",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
       },
       {
         "area": {
@@ -3019,16 +3574,28 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 495402,
         "utcDate": "2024-07-05T19:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 5,
         "stage": "QUARTER_FINALS",
         "group": null,
-        "lastUpdated": "2024-07-02T10:20:49Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 765,
           "name": "Portugal",
@@ -3044,21 +3611,40 @@
           "crest": "https://crests.football-data.org/773.svg"
         },
         "score": {
-          "winner": null,
-          "duration": "REGULAR",
+          "winner": "AWAY_TEAM",
+          "duration": "PENALTY_SHOOTOUT",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 3,
+            "away": 5
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
+          },
+          "regularTime": {
+            "home": 0,
+            "away": 0
+          },
+          "extraTime": {
+            "home": 0,
+            "away": 0
+          },
+          "penalties": {
+            "home": 3,
+            "away": 5
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11605,
+            "name": "Michael Oliver",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
       },
       {
         "area": {
@@ -3078,16 +3664,28 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 495403,
         "utcDate": "2024-07-06T16:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 5,
         "stage": "QUARTER_FINALS",
         "group": null,
-        "lastUpdated": "2024-07-02T10:20:49Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
           "id": 770,
           "name": "England",
@@ -3103,21 +3701,40 @@
           "crest": "https://crests.football-data.org/788.svg"
         },
         "score": {
-          "winner": null,
-          "duration": "REGULAR",
+          "winner": "HOME_TEAM",
+          "duration": "PENALTY_SHOOTOUT",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 6,
+            "away": 4
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
+          },
+          "regularTime": {
+            "home": 1,
+            "away": 1
+          },
+          "extraTime": {
+            "home": 0,
+            "away": 0
+          },
+          "penalties": {
+            "home": 5,
+            "away": 3
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11116,
+            "name": "Daniele Orsato",
+            "type": "REFEREE",
+            "nationality": "Italy"
+          }
+        ]
       },
       {
         "area": {
@@ -3137,16 +3754,28 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 495404,
         "utcDate": "2024-07-06T19:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 5,
         "stage": "QUARTER_FINALS",
         "group": null,
-        "lastUpdated": "2024-07-03T08:25:37Z",
+        "lastUpdated": "2024-07-07T00:20:50Z",
         "homeTeam": {
           "id": 8601,
           "name": "Netherlands",
@@ -3162,21 +3791,28 @@
           "crest": "https://crests.football-data.org/803.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 9374,
+            "name": "Clément Turpin",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -3196,46 +3832,65 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428780,
         "utcDate": "2024-07-09T19:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 6,
         "stage": "SEMI_FINALS",
         "group": null,
-        "lastUpdated": "2024-04-30T15:21:32Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
-          "id": null,
-          "name": null,
-          "shortName": null,
-          "tla": null,
-          "crest": null
+          "id": 760,
+          "name": "Spain",
+          "shortName": "Spain",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/760.svg"
         },
         "awayTeam": {
-          "id": null,
-          "name": null,
-          "shortName": null,
-          "tla": null,
-          "crest": null
+          "id": 773,
+          "name": "France",
+          "shortName": "France",
+          "tla": "FRA",
+          "crest": "https://crests.football-data.org/773.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 1
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 9351,
+            "name": "Slavko Vinčič",
+            "type": "REFEREE",
+            "nationality": "Slovenia"
+          }
+        ]
       },
       {
         "area": {
@@ -3255,46 +3910,65 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428779,
         "utcDate": "2024-07-10T19:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 6,
         "stage": "SEMI_FINALS",
         "group": null,
-        "lastUpdated": "2024-04-30T15:21:32Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
-          "id": null,
-          "name": null,
-          "shortName": null,
-          "tla": null,
-          "crest": null
+          "id": 8601,
+          "name": "Netherlands",
+          "shortName": "Netherlands",
+          "tla": "NED",
+          "crest": "https://crests.football-data.org/8601.svg"
         },
         "awayTeam": {
-          "id": null,
-          "name": null,
-          "shortName": null,
-          "tla": null,
-          "crest": null
+          "id": 770,
+          "name": "England",
+          "shortName": "England",
+          "tla": "ENG",
+          "crest": "https://crests.football-data.org/770.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 43878,
+            "name": "Felix Zwayer",
+            "type": "REFEREE",
+            "nationality": "Germany"
+          }
+        ]
       },
       {
         "area": {
@@ -3314,46 +3988,65 @@
           "id": 1537,
           "startDate": "2024-06-14",
           "endDate": "2024-07-14",
-          "currentMatchday": 5,
-          "winner": null
+          "currentMatchday": 7,
+          "winner": {
+            "id": 760,
+            "name": "Spain",
+            "shortName": "Spain",
+            "tla": "ESP",
+            "crest": "https://crests.football-data.org/760.svg",
+            "address": "Ramón y Cajal, s/n Las Rozas 28230",
+            "website": "http://www.rfef.es",
+            "founded": 1909,
+            "clubColors": "Red / Blue / Yellow",
+            "venue": "Estadio Alfredo Di Stéfano",
+            "lastUpdated": "2021-05-26T09:46:48Z"
+          }
         },
         "id": 428778,
         "utcDate": "2024-07-14T19:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 7,
         "stage": "FINAL",
         "group": null,
-        "lastUpdated": "2022-11-08T07:38:36Z",
+        "lastUpdated": "2024-07-15T10:20:57Z",
         "homeTeam": {
-          "id": null,
-          "name": null,
-          "shortName": null,
-          "tla": null,
-          "crest": null
+          "id": 760,
+          "name": "Spain",
+          "shortName": "Spain",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/760.svg"
         },
         "awayTeam": {
-          "id": null,
-          "name": null,
-          "shortName": null,
-          "tla": null,
-          "crest": null
+          "id": 770,
+          "name": "England",
+          "shortName": "England",
+          "tla": "ENG",
+          "crest": "https://crests.football-data.org/770.svg"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 43918,
+            "name": "François Letexier",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       }
     ]
   }

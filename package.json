@@ -12,11 +12,16 @@
   "dependencies": {
     "axios": "^1.7.2",
     "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "cron": "^3.1.7",
     "express": "^4.19.2",
     "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
     "mysql": "^2.18.1",
-    "node-cron": "^3.0.3"
+    "mysql2": "^3.10.2",
+    "node-cron": "^3.0.3",
+    "raw-body": "^2.5.2",
+    "stripe": "^16.2.0"
   }
 }
