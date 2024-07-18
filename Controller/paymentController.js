@@ -1,10 +1,15 @@
 const stripe = require('stripe')('sk_test_51PZaC3J7Z5palmd7vGlYPvqoEEQRtm0NHuDwV6C9V1n9HVFtBH0xt4UdwSzTbGZvz9zdTrSpPFiYVPNZMsQJXtit009ARd2eID');
 const endpointSecret = 'whsec_0d2deed7e9cb2176361fdb6f166e934391c70f47889d38fb624c7ceac18e62df';
+const currentUser = require('../Middlewares/currentUser');
 
 exports.createCheckoutSession = async (req, res, connection) => {
   try {
-    const { priceId, userId } = req.body;
-    
+    const { priceId } = req.body;
+    const userId = currentUser.getCurrentUser()
+    if (!userId) {
+      console.error('User ID not found.');
+      return res.status(400).json({ error: 'Utilisateur non connecté' });
+    }
 
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
@@ -48,7 +53,6 @@ exports.webhookHandler = async (req, res, connection) => {
         const paymentIntent = await stripe.paymentIntents.retrieve(session.payment_intent);
         const amount = paymentIntent.amount;
 
-        // Assurez-vous que la requête est correcte et évitez les doublons
         const query = 'INSERT INTO Payments (payment_intent_id, amount, user_id, created_at) VALUES (?, ?, ?, ?)';
         connection.query(query, [paymentIntent.id, amount, userId, new Date()], (err, results) => {
           if (err) {
