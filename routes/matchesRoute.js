@@ -13,7 +13,7 @@ async function fetchDataAndSaveToFile() {
   try {
     console.log("Fetching data from API...");
     const response = await axios.get(
-      "https://api.football-data.org/v4/competitions/EC/matches",
+      "https://api.football-data.org/v4/competitions/FL1/matches",
       {
         headers: {
           "X-Auth-Token": "1a93aed1ad8b40d1af324616d76267c1",
@@ -21,6 +21,7 @@ async function fetchDataAndSaveToFile() {
       }
     );
     const data = response.data;
+    
 
     const updatedData = {
       updatedAt: new Date().toISOString(),
@@ -46,7 +47,7 @@ async function fetchDataAndSaveToFile() {
 // cron.schedule('*/10 * * * * *', () => {
 cron.schedule('0 * * * *', () => {
   console.log(
-    "Executing scheduled task: fetching EURO 2024 data"
+    "Executing scheduled task: fetching Ligue 1"
   );
   fetchDataAndSaveToFile();
 });

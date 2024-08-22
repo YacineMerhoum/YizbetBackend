@@ -5,7 +5,7 @@ const currentUser = require('../Middlewares/currentUser');
 exports.createCheckoutSession = async (req, res, connection) => {
   try {
     const { priceId } = req.body;
-    const userId = currentUser.getCurrentUser()
+    const userId = currentUser.getCurrentUser();
     if (!userId) {
       console.error('User ID not found.');
       return res.status(400).json({ error: 'Utilisateur non connecté' });
@@ -53,12 +53,46 @@ exports.webhookHandler = async (req, res, connection) => {
         const paymentIntent = await stripe.paymentIntents.retrieve(session.payment_intent);
         const amount = paymentIntent.amount;
 
-        const query = 'INSERT INTO Payments (payment_intent_id, amount, user_id, created_at) VALUES (?, ?, ?, ?)';
-        connection.query(query, [paymentIntent.id, amount, userId, new Date()], (err, results) => {
+        // Enregistrer le paiement dans la table Payments
+        const paymentQuery = 'INSERT INTO Payments (payment_intent_id, amount, user_id, created_at) VALUES (?, ?, ?, ?)';
+        connection.query(paymentQuery, [paymentIntent.id, amount, userId, new Date()], (err, results) => {
           if (err) {
-            console.error('Erreur lors de l\'insertion des données :', err);
+            console.error('Erreur lors de l\'insertion des données de paiement :', err);
           } else {
-            console.log('PaymentIntent processed successfully!');
+            console.log('PaymentIntent enregistré avec succès!');
+            
+            // Vérifier l'existence de l'utilisateur dans la table Tokens
+            const checkUserQuery = 'SELECT COUNT(*) AS count FROM Tokens WHERE user_id = ?';
+            connection.query(checkUserQuery, [userId], (err, results) => {
+              if (err) {
+                console.error('Erreur lors de la vérification de l\'utilisateur :', err);
+                return;
+              }
+
+              const userExists = results[0].count > 0;
+
+              if (userExists) {
+                // Si l'utilisateur existe, mettre à jour la balance
+                const updateBalanceQuery = 'UPDATE Tokens SET balance = balance + ? WHERE user_id = ?';
+                connection.query(updateBalanceQuery, [amount, userId], (err, results) => {
+                  if (err) {
+                    console.error('Erreur lors de la mise à jour de la balance :', err);
+                  } else {
+                    console.log('Balance mise à jour avec succès!');
+                  }
+                });
+              } else {
+                // Si l'utilisateur n'existe pas, insérer une nouvelle ligne
+                const insertBalanceQuery = 'INSERT INTO Tokens (user_id, balance) VALUES (?, ?)';
+                connection.query(insertBalanceQuery, [userId, amount], (err, results) => {
+                  if (err) {
+                    console.error('Erreur lors de l\'insertion de la balance :', err);
+                  } else {
+                    console.log('Balance insérée avec succès!');
+                  }
+                });
+              }
+            });
           }
         });
         break;
@@ -67,21 +101,19 @@ exports.webhookHandler = async (req, res, connection) => {
         const charge = event.data.object;
         console.log(`Charge succeeded: ${charge.id}`);
         break;
-
+      case 'charge.updated':
+        const chargeUpdate = event.data.object;
+          console.log(`Charge succeeded: ${chargeUpdate.id}`);
+          break;
       case 'payment_intent.succeeded':
         const paymentIntentObj = event.data.object;
         console.log(`PaymentIntent succeeded: ${paymentIntentObj.id}`);
-        break;
-
-      case 'payment_intent.created':
-        console.log('Unhandled event type payment_intent.created');
         break;
 
       default:
         console.warn(`Unhandled event type ${event.type}`);
     }
 
-    // Répondre à Stripe après la gestion des événements
     res.status(200).json({ received: true });
   } catch (error) {
     console.error('Erreur lors de la gestion de l\'événement Stripe :', error);

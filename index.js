@@ -10,6 +10,7 @@ const session = require('express-session');
 const MySQLStore = require('express-mysql-session')(session);
 const paymentController = require('./Controller/paymentController');
 const currentUser = require('./Middlewares/currentUser');
+const { getTotalBalance } = require('./Controller/tokenController')
 
 const app = express();
 const PORT = 3008;
@@ -56,6 +57,24 @@ app.post('/create-checkout-session', (req, res) => paymentController.createCheck
 
 
 
+app.get('/user/:userId', (res, req)=>{
+  console.log(req.params)
+  // Première requête pour obtenir l'ID utilisateur à partir du uid Firebase
+  const userId = req.params.userId
+  const query = 'SELECT id FROM Users WHERE uid = ?';
+  connection.query(query, [userId], (err, results) => {
+    if (err) {
+      console.error('Erreur lors de la récupération du user :', err);
+      res.status(500).json({ error: 'Erreur lors de la récupération du crédit actuel' });
+      return;
+    }
+    
+    const user= results
+
+    res.status(200).json(user);
+  });
+})
+
 // Route pour récupérer le crédit ( le nombre de tokens) actuel d'un utilisateur
 app.get('/current-credit/:userId', (req, res) => {
   const userId = currentUser.getCurrentUser();
@@ -75,11 +94,115 @@ app.get('/current-credit/:userId', (req, res) => {
       return;
     }
     console.log(results , "credit du user");
-    const currentCredit = results[0].currentCredit;
+    const currentCredit = results[0].currentCredit/100
 
     res.status(200).json({ currentCredit });
   });
 });
+
+// TEST POUR CREDIT TOTAL DU USER
+
+app.get('/current-balance/:userId', (req, res) => {
+  const userId = currentUser.getCurrentUser();
+  console.log(userId + " " + "est l'ID du User");
+  const query = 'SELECT balance AS currentBalance FROM Tokens WHERE user_id = ?';
+
+  connection.query(query, [userId], (err, results) => {
+    console.log(results);
+    if (err) {
+      console.error('Erreur lors de la récupération de la balance actuelle :', err);
+      res.status(500).json({ error: 'Erreur lors de la récupération de la balance actuelle' });
+      return;
+    }
+    
+    if (results.length === 0) {
+      res.status(404).json({ error: 'Aucun crédit trouvé pour cet utilisateur' });
+      return;
+    }
+    console.log(results, "balance du user");
+    const currentBalance = results[0].currentBalance / 100; 
+
+    res.status(200).json({ currentBalance });
+  });
+});
+
+
+// ROUTE POUR FETCH LES PRONOS POUR LA PAGE GAMESEXOTICS en front 
+
+app.get('/api/match-odds', (req, res) => {
+  const sql = 'SELECT prediction FROM match_odds';
+  connection.query(sql, (err, results) => {
+    if (err) {
+      console.error('Erreur de la requête SQL:', err);
+      res.status(500).send('Erreur serveur');
+      return;
+    }
+    res.send(results);
+  });
+});
+
+
+// Interrogons la BDD pour savoir si le nombre de Tokens est bon
+app.get('/total-balance/:userId', async (req, res) => {
+  try {
+    const firebaseUid = req.params.userId; // Il s'agit ici du uid Firebase
+    console.log('User ID dans la route:', firebaseUid);
+    const totalBalance = await getTotalBalance(firebaseUid, connection);
+    console.log('Total Balance:', totalBalance);
+    res.json({ totalBalance });
+  } catch (error) {
+    console.error('Error fetching total balance:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+});
+
+
+
+// Route pour déduire les tokens de l'utilisateur
+app.post('/deduct-balance', (req, res) => {
+  console.log('Données reçues:', req.body); // Ajoutez ce log pour voir les données
+
+  const { userId, amount } = req.body;
+
+  if (!userId || !amount) {
+      return res.status(400).json({ error: 'Invalid request. Missing userId or amount.' });
+  }
+
+  // Première requête pour obtenir l'ID utilisateur à partir du uid Firebase
+  const userIdQuery = 'SELECT id FROM Users WHERE uid = ?';
+  const query = 'UPDATE Tokens SET balance = balance - ? WHERE user_id = ? AND balance >= ?';
+
+  connection.query(userIdQuery, [userId], (err, results) => {
+      if (err) {
+          console.error('Erreur lors de la récupération de l\'ID utilisateur:', err);
+          return res.status(500).json({ error: 'Internal Server Error' });
+      }
+
+      const userDbId = results[0].id;
+
+      connection.query(query, [amount, userDbId, amount], (err, results) => {
+          if (err) {
+              console.error('Erreur lors de la déduction des tokens:', err);
+              return res.status(500).json({ error: 'Internal Server Error' });
+          }
+
+          if (results.affectedRows === 0) {
+              return res.status(400).json({ error: 'Solde insuffisant ou utilisateur non trouvé.' });
+          }
+
+          res.status(200).json({ message: 'Tokens déduits avec succès.' });
+      });
+  });
+});
+
+
+
+
+
+
+
+
+
 
 
 
@@ -131,6 +254,7 @@ app.post('/register', async (req, res) => {
 });
 
 const matchesRoute = require('./routes/matchesRoute');
+const { log } = require('console');
 app.use(matchesRoute, express.json());
 
 app.use('/data', express.static(path.join(__dirname, 'data')));
