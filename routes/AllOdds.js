@@ -54,7 +54,13 @@ async function insertDataIntoDatabase(oddsData) {
     const connection = await mysql.createConnection(dbConfig);
     console.log("Connected to the database");
 
-    for (const match of oddsData.slice(0, 8)) { 
+    // Filtrer les matchs de Pinnacle et garder seulement les 6 premiers
+    const pinnacleMatches = oddsData.filter(match => 
+      match.bookmakers.some(bookmaker => bookmaker.key === "pinnacle")
+    ).slice(0, 6);
+
+    let order = 1; // Initialiser l'ordre d'insertion
+    for (const match of pinnacleMatches) {
       const { id, sport_key, sport_title, commence_time, home_team, away_team, bookmakers } = match;
 
       const pinnacleBookmaker = bookmakers.find(bookmaker => bookmaker.key === "pinnacle");
@@ -65,14 +71,15 @@ async function insertDataIntoDatabase(oddsData) {
           const outcomes = h2hMarket.outcomes;
 
           const query = `
-            INSERT INTO match_odds (id, sport_key, sport_title, commence_time, home_team, away_team, bookmaker_key, bookmaker_title, last_update, home_price, away_price, draw_price)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            INSERT INTO match_odds (id, sport_key, sport_title, commence_time, home_team, away_team, bookmaker_key, bookmaker_title, last_update, home_price, away_price, draw_price, insertion_order)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON DUPLICATE KEY UPDATE
             last_update = VALUES(last_update),
             home_price = VALUES(home_price),
             away_price = VALUES(away_price),
-            draw_price = VALUES(draw_price)
-          `;
+            draw_price = VALUES(draw_price),
+            insertion_order = VALUES(insertion_order)
+          `; 
 
           await connection.execute(query, [
             id,
@@ -84,9 +91,10 @@ async function insertDataIntoDatabase(oddsData) {
             pinnacleBookmaker.key,
             pinnacleBookmaker.title,
             pinnacleBookmaker.last_update,
-            outcomes[0].price,
-            outcomes[1].price,
-            outcomes[2].price
+            outcomes.find(outcome => outcome.name === home_team)?.price || null,
+            outcomes.find(outcome => outcome.name === away_team)?.price || null,
+            outcomes.find(outcome => outcome.name === 'Draw')?.price || null,
+            order++ // Incrémenter l'ordre d'insertion pour chaque match
           ]);
         }
       }
@@ -98,6 +106,7 @@ async function insertDataIntoDatabase(oddsData) {
     console.error("Error inserting data into the database:", error);
   }
 }
+
 
 // cron.schedule('*/10 * * * * *', () => {
   cron.schedule('0 * * * *', () => {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2024-08-22T15:00:01.131Z",
+  "updatedAt": "2024-08-27T14:00:02.656Z",
   "data": {
     "filters": {
       "season": "2024"
@@ -8,7 +8,7 @@
       "count": 306,
       "first": "2024-08-16",
       "last": "2025-05-18",
-      "played": 9
+      "played": 18
     },
     "competition": {
       "id": 2015,
@@ -45,7 +45,7 @@
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 533,
           "name": "Le Havre AC",
@@ -635,11 +635,11 @@
         },
         "id": 497960,
         "utcDate": "2024-08-23T18:45:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -655,21 +655,28 @@
           "crest": "https://crests.football-data.org/518.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 6,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 64781,
+            "name": "Marc Bollengier",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -694,11 +701,11 @@
         },
         "id": 497967,
         "utcDate": "2024-08-24T15:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-25T00:21:10Z",
         "homeTeam": {
           "id": 523,
           "name": "Olympique Lyonnais",
@@ -714,21 +721,28 @@
           "crest": "https://crests.football-data.org/548.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 25786,
+            "name": "Stéphanie Frappart",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -753,11 +767,11 @@
         },
         "id": 497964,
         "utcDate": "2024-08-24T17:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-25T00:21:10Z",
         "homeTeam": {
           "id": 521,
           "name": "Lille OSC",
@@ -773,21 +787,28 @@
           "crest": "https://crests.football-data.org/532.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57501,
+            "name": "Abdelatif Kherradji",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -812,11 +833,11 @@
         },
         "id": 497963,
         "utcDate": "2024-08-24T19:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-25T00:21:10Z",
         "homeTeam": {
           "id": 527,
           "name": "AS Saint-Étienne",
@@ -832,21 +853,28 @@
           "crest": "https://crests.football-data.org/533.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57068,
+            "name": "Florent Batta",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -871,11 +899,11 @@
         },
         "id": 497966,
         "utcDate": "2024-08-25T13:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-26T00:21:11Z",
         "homeTeam": {
           "id": 546,
           "name": "Racing Club de Lens",
@@ -891,21 +919,28 @@
           "crest": "https://crests.football-data.org/512.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57073,
+            "name": "Jérémie Pignard",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -930,11 +965,11 @@
         },
         "id": 497961,
         "utcDate": "2024-08-25T15:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-26T00:21:11Z",
         "homeTeam": {
           "id": 576,
           "name": "RC Strasbourg Alsace",
@@ -950,21 +985,28 @@
           "crest": "https://crests.football-data.org/529.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 3,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57092,
+            "name": "Eric Wattellier",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -989,11 +1031,11 @@
         },
         "id": 497962,
         "utcDate": "2024-08-25T15:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-26T00:21:11Z",
         "homeTeam": {
           "id": 543,
           "name": "FC Nantes",
@@ -1009,21 +1051,28 @@
           "crest": "https://crests.football-data.org/519.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 64829,
+            "name": "Gaël Angoula",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -1048,11 +1097,11 @@
         },
         "id": 497965,
         "utcDate": "2024-08-25T15:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-26T00:21:11Z",
         "homeTeam": {
           "id": 522,
           "name": "OGC Nice",
@@ -1068,21 +1117,28 @@
           "crest": "https://crests.football-data.org/511.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57088,
+            "name": "Bastien Dechepy",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -1107,11 +1163,11 @@
         },
         "id": 497968,
         "utcDate": "2024-08-25T18:45:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-26T00:21:11Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -1127,21 +1183,28 @@
           "crest": "https://crests.football-data.org/547.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57063,
+            "name": "Hakim Ben El Hadj Salem",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -1170,7 +1233,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-27T01:32:02Z",
         "homeTeam": {
           "id": 523,
           "name": "Olympique Lyonnais",
@@ -1229,7 +1292,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-27T01:32:04Z",
         "homeTeam": {
           "id": 512,
           "name": "Stade Brestois 29",
@@ -1288,7 +1351,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-27T01:32:04Z",
         "homeTeam": {
           "id": 518,
           "name": "Montpellier HSC",
@@ -1347,7 +1410,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-27T01:32:05Z",
         "homeTeam": {
           "id": 511,
           "name": "Toulouse FC",
@@ -1406,7 +1469,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-27T01:32:06Z",
         "homeTeam": {
           "id": 548,
           "name": "AS Monaco FC",
@@ -1465,7 +1528,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-27T01:32:06Z",
         "homeTeam": {
           "id": 532,
           "name": "Angers SCO",
@@ -1524,7 +1587,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-27T01:32:06Z",
         "homeTeam": {
           "id": 533,
           "name": "Le Havre AC",
@@ -1583,7 +1646,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-16T15:20:34Z",
+        "lastUpdated": "2024-08-27T01:32:06Z",
         "homeTeam": {
           "id": 547,
           "name": "Stade de Reims",
@@ -1642,7 +1705,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 521,
           "name": "Lille OSC",
@@ -1696,12 +1759,12 @@
           "winner": null
         },
         "id": 497978,
-        "utcDate": "2024-09-15T00:00:00Z",
+        "utcDate": "2024-09-14T00:00:00Z",
         "status": "SCHEDULED",
         "matchday": 4,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-06-27T11:04:30Z",
+        "lastUpdated": "2024-08-23T15:21:26Z",
         "homeTeam": {
           "id": 519,
           "name": "AJ Auxerre",
@@ -1755,12 +1818,12 @@
           "winner": null
         },
         "id": 497980,
-        "utcDate": "2024-09-15T00:00:00Z",
+        "utcDate": "2024-09-14T00:00:00Z",
         "status": "SCHEDULED",
         "matchday": 4,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-06-27T11:04:30Z",
+        "lastUpdated": "2024-08-23T15:21:26Z",
         "homeTeam": {
           "id": 546,
           "name": "Racing Club de Lens",
@@ -1814,12 +1877,12 @@
           "winner": null
         },
         "id": 497984,
-        "utcDate": "2024-09-15T00:00:00Z",
+        "utcDate": "2024-09-14T00:00:00Z",
         "status": "SCHEDULED",
         "matchday": 4,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-06-27T11:04:30Z",
+        "lastUpdated": "2024-08-23T15:21:26Z",
         "homeTeam": {
           "id": 527,
           "name": "AS Saint-Étienne",
@@ -1873,12 +1936,12 @@
           "winner": null
         },
         "id": 497985,
-        "utcDate": "2024-09-15T00:00:00Z",
+        "utcDate": "2024-09-14T00:00:00Z",
         "status": "SCHEDULED",
         "matchday": 4,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-06-27T11:04:30Z",
+        "lastUpdated": "2024-08-23T15:21:26Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -1932,12 +1995,12 @@
           "winner": null
         },
         "id": 497986,
-        "utcDate": "2024-09-15T00:00:00Z",
+        "utcDate": "2024-09-14T00:00:00Z",
         "status": "SCHEDULED",
         "matchday": 4,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -2350,7 +2413,7 @@
         "matchday": 5,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 547,
           "name": "Stade de Reims",
@@ -2364,183 +2427,6 @@
           "shortName": "PSG",
           "tla": "PSG",
           "crest": "https://crests.football-data.org/524.png"
-        },
-        "score": {
-          "winner": null,
-          "duration": "REGULAR",
-          "fullTime": {
-            "home": null,
-            "away": null
-          },
-          "halfTime": {
-            "home": null,
-            "away": null
-          }
-        },
-        "odds": {
-          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-        },
-        "referees": []
-      },
-      {
-        "area": {
-          "id": 2081,
-          "name": "France",
-          "code": "FRA",
-          "flag": "https://crests.football-data.org/773.svg"
-        },
-        "competition": {
-          "id": 2015,
-          "name": "Ligue 1",
-          "code": "FL1",
-          "type": "LEAGUE",
-          "emblem": "https://crests.football-data.org/FL1.png"
-        },
-        "season": {
-          "id": 2290,
-          "startDate": "2024-08-18",
-          "endDate": "2025-05-18",
-          "currentMatchday": 2,
-          "winner": null
-        },
-        "id": 497990,
-        "utcDate": "2024-09-22T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 5,
-        "stage": "REGULAR_SEASON",
-        "group": null,
-        "lastUpdated": "2024-06-27T11:04:29Z",
-        "homeTeam": {
-          "id": 512,
-          "name": "Stade Brestois 29",
-          "shortName": "Brest",
-          "tla": "BRE",
-          "crest": "https://crests.football-data.org/512.png"
-        },
-        "awayTeam": {
-          "id": 511,
-          "name": "Toulouse FC",
-          "shortName": "Toulouse",
-          "tla": "TOU",
-          "crest": "https://crests.football-data.org/511.png"
-        },
-        "score": {
-          "winner": null,
-          "duration": "REGULAR",
-          "fullTime": {
-            "home": null,
-            "away": null
-          },
-          "halfTime": {
-            "home": null,
-            "away": null
-          }
-        },
-        "odds": {
-          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-        },
-        "referees": []
-      },
-      {
-        "area": {
-          "id": 2081,
-          "name": "France",
-          "code": "FRA",
-          "flag": "https://crests.football-data.org/773.svg"
-        },
-        "competition": {
-          "id": 2015,
-          "name": "Ligue 1",
-          "code": "FL1",
-          "type": "LEAGUE",
-          "emblem": "https://crests.football-data.org/FL1.png"
-        },
-        "season": {
-          "id": 2290,
-          "startDate": "2024-08-18",
-          "endDate": "2025-05-18",
-          "currentMatchday": 2,
-          "winner": null
-        },
-        "id": 497991,
-        "utcDate": "2024-09-22T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 5,
-        "stage": "REGULAR_SEASON",
-        "group": null,
-        "lastUpdated": "2024-06-27T11:04:29Z",
-        "homeTeam": {
-          "id": 532,
-          "name": "Angers SCO",
-          "shortName": "Angers SCO",
-          "tla": "ANG",
-          "crest": "https://crests.football-data.org/532.png"
-        },
-        "awayTeam": {
-          "id": 543,
-          "name": "FC Nantes",
-          "shortName": "Nantes",
-          "tla": "NAN",
-          "crest": "https://crests.football-data.org/543.png"
-        },
-        "score": {
-          "winner": null,
-          "duration": "REGULAR",
-          "fullTime": {
-            "home": null,
-            "away": null
-          },
-          "halfTime": {
-            "home": null,
-            "away": null
-          }
-        },
-        "odds": {
-          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-        },
-        "referees": []
-      },
-      {
-        "area": {
-          "id": 2081,
-          "name": "France",
-          "code": "FRA",
-          "flag": "https://crests.football-data.org/773.svg"
-        },
-        "competition": {
-          "id": 2015,
-          "name": "Ligue 1",
-          "code": "FL1",
-          "type": "LEAGUE",
-          "emblem": "https://crests.football-data.org/FL1.png"
-        },
-        "season": {
-          "id": 2290,
-          "startDate": "2024-08-18",
-          "endDate": "2025-05-18",
-          "currentMatchday": 2,
-          "winner": null
-        },
-        "id": 497992,
-        "utcDate": "2024-09-22T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 5,
-        "stage": "REGULAR_SEASON",
-        "group": null,
-        "lastUpdated": "2024-06-27T11:04:29Z",
-        "homeTeam": {
-          "id": 518,
-          "name": "Montpellier HSC",
-          "shortName": "Montpellier",
-          "tla": "MON",
-          "crest": "https://crests.football-data.org/518.png"
-        },
-        "awayTeam": {
-          "id": 519,
-          "name": "AJ Auxerre",
-          "shortName": "Auxerre",
-          "tla": "AJA",
-          "crest": "https://crests.football-data.org/519.png"
         },
         "score": {
           "winner": null,
@@ -2757,6 +2643,183 @@
           "currentMatchday": 2,
           "winner": null
         },
+        "id": 497990,
+        "utcDate": "2024-09-22T15:00:00Z",
+        "status": "TIMED",
+        "matchday": 5,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-08-27T15:21:23Z",
+        "homeTeam": {
+          "id": 512,
+          "name": "Stade Brestois 29",
+          "shortName": "Brest",
+          "tla": "BRE",
+          "crest": "https://crests.football-data.org/512.png"
+        },
+        "awayTeam": {
+          "id": 511,
+          "name": "Toulouse FC",
+          "shortName": "Toulouse",
+          "tla": "TOU",
+          "crest": "https://crests.football-data.org/511.png"
+        },
+        "score": {
+          "winner": null,
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": null,
+            "away": null
+          },
+          "halfTime": {
+            "home": null,
+            "away": null
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": []
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 2290,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-18",
+          "currentMatchday": 2,
+          "winner": null
+        },
+        "id": 497991,
+        "utcDate": "2024-09-22T15:00:00Z",
+        "status": "TIMED",
+        "matchday": 5,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-08-27T15:21:23Z",
+        "homeTeam": {
+          "id": 532,
+          "name": "Angers SCO",
+          "shortName": "Angers SCO",
+          "tla": "ANG",
+          "crest": "https://crests.football-data.org/532.png"
+        },
+        "awayTeam": {
+          "id": 543,
+          "name": "FC Nantes",
+          "shortName": "Nantes",
+          "tla": "NAN",
+          "crest": "https://crests.football-data.org/543.png"
+        },
+        "score": {
+          "winner": null,
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": null,
+            "away": null
+          },
+          "halfTime": {
+            "home": null,
+            "away": null
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": []
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 2290,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-18",
+          "currentMatchday": 2,
+          "winner": null
+        },
+        "id": 497992,
+        "utcDate": "2024-09-22T15:00:00Z",
+        "status": "TIMED",
+        "matchday": 5,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-08-27T15:21:23Z",
+        "homeTeam": {
+          "id": 518,
+          "name": "Montpellier HSC",
+          "shortName": "Montpellier",
+          "tla": "MON",
+          "crest": "https://crests.football-data.org/518.png"
+        },
+        "awayTeam": {
+          "id": 519,
+          "name": "AJ Auxerre",
+          "shortName": "Auxerre",
+          "tla": "AJA",
+          "crest": "https://crests.football-data.org/519.png"
+        },
+        "score": {
+          "winner": null,
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": null,
+            "away": null
+          },
+          "halfTime": {
+            "home": null,
+            "away": null
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": []
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 2290,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-18",
+          "currentMatchday": 2,
+          "winner": null
+        },
         "id": 497996,
         "utcDate": "2024-09-29T00:00:00Z",
         "status": "SCHEDULED",
@@ -2822,7 +2885,7 @@
         "matchday": 6,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -3353,7 +3416,7 @@
         "matchday": 7,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 522,
           "name": "OGC Nice",
@@ -4297,7 +4360,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -4474,7 +4537,7 @@
         "matchday": 9,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -5359,7 +5422,7 @@
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -5890,7 +5953,7 @@
         "matchday": 11,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 532,
           "name": "Angers SCO",
@@ -5949,7 +6012,7 @@
         "matchday": 12,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -6834,7 +6897,7 @@
         "matchday": 13,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -7070,7 +7133,7 @@
         "matchday": 14,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 519,
           "name": "AJ Auxerre",
@@ -8014,7 +8077,7 @@
         "matchday": 15,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -8073,7 +8136,7 @@
         "matchday": 16,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 548,
           "name": "AS Monaco FC",
@@ -9017,7 +9080,7 @@
         "matchday": 17,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -9194,7 +9257,7 @@
         "matchday": 18,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 546,
           "name": "Racing Club de Lens",
@@ -10079,7 +10142,7 @@
         "matchday": 19,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -10256,7 +10319,7 @@
         "matchday": 20,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 512,
           "name": "Stade Brestois 29",
@@ -11023,7 +11086,7 @@
         "matchday": 21,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -11259,7 +11322,7 @@
         "matchday": 22,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 511,
           "name": "Toulouse FC",
@@ -12262,7 +12325,7 @@
         "matchday": 23,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 523,
           "name": "Olympique Lyonnais",
@@ -12321,7 +12384,7 @@
         "matchday": 24,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -13265,7 +13328,7 @@
         "matchday": 25,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 529,
           "name": "Stade Rennais FC 1901",
@@ -13383,7 +13446,7 @@
         "matchday": 26,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -14209,7 +14272,7 @@
         "matchday": 27,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 527,
           "name": "AS Saint-Étienne",
@@ -14799,7 +14862,7 @@
         "matchday": 28,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -15153,7 +15216,7 @@
         "matchday": 29,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 543,
           "name": "FC Nantes",
@@ -15743,7 +15806,7 @@
         "matchday": 30,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -16392,7 +16455,7 @@
         "matchday": 31,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -16982,7 +17045,7 @@
         "matchday": 32,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 576,
           "name": "RC Strasbourg Alsace",
@@ -17395,7 +17458,7 @@
         "matchday": 33,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 518,
           "name": "Montpellier HSC",
@@ -18103,7 +18166,7 @@
         "matchday": 34,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-22T15:21:25Z",
+        "lastUpdated": "2024-08-27T15:21:23Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",

@@ -57,23 +57,73 @@ app.post('/create-checkout-session', (req, res) => paymentController.createCheck
 
 
 
-app.get('/user/:userId', (res, req)=>{
-  console.log(req.params)
-  // Première requête pour obtenir l'ID utilisateur à partir du uid Firebase
-  const userId = req.params.userId
+// app.get('/user/:userId', (res, req)=>{
+//   console.log(req.params)
+//   // Première requête pour obtenir l'ID utilisateur à partir du uid Firebase
+//   const userId = req.params.userId
+//   const query = 'SELECT id FROM Users WHERE uid = ?';
+//   connection.query(query, [userId], (err, results) => {
+//     if (err) {
+//       console.error('Erreur lors de la récupération du user :', err);
+//       res.status(500).json({ error: 'Erreur lors de la récupération du crédit actuel' });
+//       return;
+//     }
+    
+//     const user= results
+
+//     res.status(200).json(user);
+//   });
+// })
+app.get('/user/:userId', (req, res) => {
+  console.log(req.params);
+
+  // Nettoyer l'UID pour enlever les espaces et les nouvelles lignes
+  const userId = req.params.userId.trim();
+  console.log('UID nettoyé:', userId);
+  
   const query = 'SELECT id FROM Users WHERE uid = ?';
+  
   connection.query(query, [userId], (err, results) => {
     if (err) {
       console.error('Erreur lors de la récupération du user :', err);
       res.status(500).json({ error: 'Erreur lors de la récupération du crédit actuel' });
       return;
     }
-    
-    const user= results
 
-    res.status(200).json(user);
+    if (results.length === 0) {
+      return res.status(404).json({ error: 'Utilisateur non trouvé' });
+    }
+
+    res.status(200).json({ id: results[0].id });
   });
-})
+});
+
+// app.get('/api/get-user-id/:userId', (req, res) => {
+//   const userId = req.params.userId;
+//   console.log('Requête reçue pour l\'UID:', userId);
+
+//   const query = 'SELECT id FROM Users WHERE uid = ?';
+//   connection.query(query, [userId], (err, results) => {
+//       if (err) {
+//           console.error('Erreur lors de la récupération du user:', err);
+//           return res.status(500).json({ error: 'Erreur lors de la récupération du crédit actuel' });
+//       }
+      
+//       console.log('Résultats SQL:', results);
+//       if (results.length === 0) {
+//           console.log('Utilisateur non trouvé pour l\'UID:', userId);
+//           return res.status(404).json({ error: 'Utilisateur non trouvé' });
+//       }
+
+//       const user = results[0];
+//       res.status(200).json(user);
+//   });
+// });
+
+
+
+
+
 
 // Route pour récupérer le crédit ( le nombre de tokens) actuel d'un utilisateur
 app.get('/current-credit/:userId', (req, res) => {
@@ -130,7 +180,7 @@ app.get('/current-balance/:userId', (req, res) => {
 // ROUTE POUR FETCH LES PRONOS POUR LA PAGE GAMESEXOTICS en front 
 
 app.get('/api/match-odds', (req, res) => {
-  const sql = 'SELECT prediction FROM match_odds';
+  const sql = 'SELECT id, prediction FROM match_odds ORDER BY insertion_order'
   connection.query(sql, (err, results) => {
     if (err) {
       console.error('Erreur de la requête SQL:', err);
@@ -140,6 +190,7 @@ app.get('/api/match-odds', (req, res) => {
     res.send(results);
   });
 });
+
 
 
 // Interrogons la BDD pour savoir si le nombre de Tokens est bon
@@ -196,6 +247,54 @@ app.post('/deduct-balance', (req, res) => {
 });
 
 
+// POUR ENRENGISTRER EN BDD LE PRONO DU USER POUR QUE SA LAISSE UNE TRACE
+
+app.post('/api/userpredictions', (req, res) => {
+  const { user_id, match_id, prediction, tokens_used } = req.body;
+
+  console.log('Vérification de l\'utilisateur avec ID:', user_id);
+
+  const userCheckSql = 'SELECT * FROM Users WHERE id = ?';
+  connection.query(userCheckSql, [user_id], (err, results) => {
+      if (err) {
+          console.error('Erreur lors de la vérification de l\'utilisateur:', err);
+          return res.status(500).json({ success: false, error: 'Erreur lors de la vérification de l\'utilisateur' });
+      }
+
+      console.log('Résultat de la requête utilisateur:', results);
+
+      if (results.length === 0) {
+          console.error('Utilisateur non trouvé avec ID:', user_id);
+          return res.status(404).json({ success: false, error: 'Utilisateur non trouvé' });
+      }
+
+      const sql = 'INSERT INTO UserPredictions (user_id, match_id, prediction, tokens_used) VALUES (?, ?, ?, ?)';
+      connection.query(sql, [user_id, match_id, prediction, tokens_used], (err, result) => {
+          if (err) {
+              console.error('Erreur lors de l\'insertion du pronostic:', err);
+              return res.status(500).json({ success: false, error: 'Erreur lors de l\'insertion du pronostic' });
+          }
+
+          res.status(201).json({ success: true, id: result.insertId });
+      });
+  });
+});
+
+// ACCES AUX HISTORIQUES PRONOS 
+app.get('/api/userpredictions/:userId', (req, res) => {
+  const { userId } = req.params;
+
+  const query = 'SELECT * FROM UserPredictions WHERE user_id = ?';
+  
+  connection.query(query, [userId], (err, results) => {
+    if (err) {
+      console.error("Erreur lors de la récupération des prédictions :", err);
+      return res.status(500).send('Erreur lors de la récupération des prédictions');
+    }
+
+    res.json(results);
+  });
+});
 
 
 
