@@ -11,6 +11,7 @@ const MySQLStore = require('express-mysql-session')(session);
 const paymentController = require('./Controller/paymentController');
 const currentUser = require('./Middlewares/currentUser');
 const { getTotalBalance } = require('./Controller/tokenController')
+const dashboardRoutes = require('./routes/Dashboard');
 
 const app = express();
 const PORT = 3008;
@@ -55,6 +56,8 @@ app.use(bodyParser.json());
 
 app.post('/create-checkout-session', (req, res) => paymentController.createCheckoutSession(req, res, connection));
 
+app.use('/dashboard', dashboardRoutes);
+
 
 
 // app.get('/user/:userId', (res, req)=>{
@@ -77,7 +80,7 @@ app.post('/create-checkout-session', (req, res) => paymentController.createCheck
 app.get('/user/:userId', (req, res) => {
   console.log(req.params);
 
-  // Nettoyer l'UID pour enlever les espaces et les nouvelles lignes
+
   const userId = req.params.userId.trim();
   console.log('UID nettoyé:', userId);
   
@@ -97,6 +100,55 @@ app.get('/user/:userId', (req, res) => {
     res.status(200).json({ id: results[0].id });
   });
 });
+
+app.delete('/api/delete-account/:userId', (req, res) => {
+  const { userId } = req.params;
+
+  // Supprimer les prédictions de l'utilisateur
+  const deleteUserPredictionsQuery = 'DELETE FROM UserPredictions WHERE user_id = ?';
+
+  // Supprimer les tokens de l'utilisateur
+  const deleteTokensQuery = 'DELETE FROM Tokens WHERE user_id = ?';
+
+  // Supprimer les paiements de l'utilisateur
+  const deletePaymentsQuery = 'DELETE FROM Payments WHERE user_id = ?';
+
+  // Supprimer l'utilisateur
+  const deleteUserQuery = 'DELETE FROM Users WHERE id = ?';
+
+  // Commencer par supprimer les enregistrements liés dans chaque table
+  connection.query(deleteUserPredictionsQuery, [userId], (err, results) => {
+    if (err) {
+      console.error("Erreur lors de la suppression des prédictions :", err);
+      return res.status(500).json({ error: 'Erreur lors de la suppression des prédictions' });
+    }
+
+    connection.query(deleteTokensQuery, [userId], (err, results) => {
+      if (err) {
+        console.error("Erreur lors de la suppression des tokens :", err);
+        return res.status(500).json({ error: 'Erreur lors de la suppression des tokens' });
+      }
+
+      connection.query(deletePaymentsQuery, [userId], (err, results) => {
+        if (err) {
+          console.error("Erreur lors de la suppression des paiements :", err);
+          return res.status(500).json({ error: 'Erreur lors de la suppression des paiements' });
+        }
+
+        // Enfin, supprimer l'utilisateur lui-même
+        connection.query(deleteUserQuery, [userId], (err, results) => {
+          if (err) {
+            console.error("Erreur lors de la suppression de l'utilisateur :", err);
+            return res.status(500).json({ error: 'Erreur lors de la suppression de l\'utilisateur' });
+          }
+
+          res.status(200).json({ message: 'Compte utilisateur supprimé avec succès' });
+        });
+      });
+    });
+  });
+});
+
 
 // app.get('/api/get-user-id/:userId', (req, res) => {
 //   const userId = req.params.userId;
