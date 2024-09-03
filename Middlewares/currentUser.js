@@ -1,9 +1,9 @@
-let currentUserId = null;
+// let currentUserId = null;
 
-exports.setCurrentUser = (userId) => {
-  currentUserId = userId;
-};
+// exports.setCurrentUser = (userId) => {
+//   currentUserId = userId;
+// };
 
-exports.getCurrentUser = () => {
-  return currentUserId;
-};
+// exports.getCurrentUser = () => {
+//   return currentUserId;
+// };

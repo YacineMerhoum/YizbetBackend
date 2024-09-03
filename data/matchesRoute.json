@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2024-08-31T10:00:02.759Z",
+  "updatedAt": "2024-09-03T09:00:02.850Z",
   "data": {
     "filters": {
       "season": "2024"
@@ -8,7 +8,7 @@
       "count": 306,
       "first": "2024-08-16",
       "last": "2025-05-18",
-      "played": 19
+      "played": 27
     },
     "competition": {
       "id": 2015,
@@ -1295,7 +1295,7 @@
         },
         "id": 497971,
         "utcDate": "2024-08-31T15:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
@@ -1315,21 +1315,28 @@
           "crest": "https://crests.football-data.org/527.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 4,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 64829,
+            "name": "Gaël Angoula",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -1354,7 +1361,7 @@
         },
         "id": 497972,
         "utcDate": "2024-08-31T17:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
@@ -1374,21 +1381,28 @@
           "crest": "https://crests.football-data.org/543.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 3
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 2
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 15545,
+            "name": "Benoît Millot",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -1413,7 +1427,7 @@
         },
         "id": 497977,
         "utcDate": "2024-08-31T19:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
@@ -1433,21 +1447,28 @@
           "crest": "https://crests.football-data.org/516.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 3
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 2
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 25786,
+            "name": "Stéphanie Frappart",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -1472,7 +1493,7 @@
         },
         "id": 497974,
         "utcDate": "2024-09-01T13:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
@@ -1492,21 +1513,28 @@
           "crest": "https://crests.football-data.org/546.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57042,
+            "name": "Willy Delajod",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -1531,7 +1559,7 @@
         },
         "id": 497973,
         "utcDate": "2024-09-01T15:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
@@ -1551,21 +1579,28 @@
           "crest": "https://crests.football-data.org/522.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 4
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 2
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 1049,
+            "name": "Jeremy Stinat",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -1590,7 +1625,7 @@
         },
         "id": 497975,
         "utcDate": "2024-09-01T15:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
@@ -1610,21 +1645,28 @@
           "crest": "https://crests.football-data.org/519.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 3,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 64781,
+            "name": "Marc Bollengier",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -1649,7 +1691,7 @@
         },
         "id": 497976,
         "utcDate": "2024-09-01T15:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
@@ -1669,21 +1711,28 @@
           "crest": "https://crests.football-data.org/529.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 57054,
+            "name": "Mathieu Vernice",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {
@@ -1708,7 +1757,7 @@
         },
         "id": 497969,
         "utcDate": "2024-09-01T18:45:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
@@ -1728,21 +1777,28 @@
           "crest": "https://crests.football-data.org/524.png"
         },
         "score": {
-          "winner": null,
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 3
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 2
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 43926,
+            "name": "Benoît Bastien",
+            "type": "REFEREE",
+            "nationality": "France"
+          }
+        ]
       },
       {
         "area": {

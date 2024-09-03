@@ -9,9 +9,11 @@ const bcrypt = require('bcrypt');
 const session = require('express-session');
 const MySQLStore = require('express-mysql-session')(session);
 const paymentController = require('./Controller/paymentController');
-const currentUser = require('./Middlewares/currentUser');
 const { getTotalBalance } = require('./Controller/tokenController')
 const dashboardRoutes = require('./routes/Dashboard');
+const balanceRoutes = require('./routes/balanceRoutes');
+const lastPayment = require('./routes/LastPayment')
+const deleteRoute = require('./routes/DeleteRoute')
 
 const app = express();
 const PORT = 3008;
@@ -30,6 +32,8 @@ connection.connect((err) => {
   }
   console.log('Connecté à la base de données MySQL !');
 });
+
+module.exports = connection;
 
 // Configurer CORS
 app.use(cors({
@@ -56,7 +60,15 @@ app.use(bodyParser.json());
 
 app.post('/create-checkout-session', (req, res) => paymentController.createCheckoutSession(req, res, connection));
 
-app.use('/dashboard', dashboardRoutes);
+app.use('/api/admin', dashboardRoutes);
+
+app.use('/api', balanceRoutes);
+
+app.use('/api/last-payment', lastPayment);
+
+app.use('/api', deleteRoute);
+
+
 
 
 
@@ -101,53 +113,9 @@ app.get('/user/:userId', (req, res) => {
   });
 });
 
-app.delete('/api/delete-account/:userId', (req, res) => {
-  const { userId } = req.params;
 
-  // Supprimer les prédictions de l'utilisateur
-  const deleteUserPredictionsQuery = 'DELETE FROM UserPredictions WHERE user_id = ?';
 
-  // Supprimer les tokens de l'utilisateur
-  const deleteTokensQuery = 'DELETE FROM Tokens WHERE user_id = ?';
 
-  // Supprimer les paiements de l'utilisateur
-  const deletePaymentsQuery = 'DELETE FROM Payments WHERE user_id = ?';
-
-  // Supprimer l'utilisateur
-  const deleteUserQuery = 'DELETE FROM Users WHERE id = ?';
-
-  // Commencer par supprimer les enregistrements liés dans chaque table
-  connection.query(deleteUserPredictionsQuery, [userId], (err, results) => {
-    if (err) {
-      console.error("Erreur lors de la suppression des prédictions :", err);
-      return res.status(500).json({ error: 'Erreur lors de la suppression des prédictions' });
-    }
-
-    connection.query(deleteTokensQuery, [userId], (err, results) => {
-      if (err) {
-        console.error("Erreur lors de la suppression des tokens :", err);
-        return res.status(500).json({ error: 'Erreur lors de la suppression des tokens' });
-      }
-
-      connection.query(deletePaymentsQuery, [userId], (err, results) => {
-        if (err) {
-          console.error("Erreur lors de la suppression des paiements :", err);
-          return res.status(500).json({ error: 'Erreur lors de la suppression des paiements' });
-        }
-
-        // Enfin, supprimer l'utilisateur lui-même
-        connection.query(deleteUserQuery, [userId], (err, results) => {
-          if (err) {
-            console.error("Erreur lors de la suppression de l'utilisateur :", err);
-            return res.status(500).json({ error: 'Erreur lors de la suppression de l\'utilisateur' });
-          }
-
-          res.status(200).json({ message: 'Compte utilisateur supprimé avec succès' });
-        });
-      });
-    });
-  });
-});
 
 
 // app.get('/api/get-user-id/:userId', (req, res) => {
@@ -179,12 +147,12 @@ app.delete('/api/delete-account/:userId', (req, res) => {
 
 // Route pour récupérer le crédit ( le nombre de tokens) actuel d'un utilisateur
 app.get('/current-credit/:userId', (req, res) => {
-  const userId = currentUser.getCurrentUser();
+  const userId = req.params.userId;
   console.log(userId, " je suis l'utilisateur");
 
   const query = 'SELECT amount AS currentCredit FROM Payments WHERE user_id = ?';
 
-  connection.query(query, [userId], (err, results) => {
+  connection.query(query, [user.id], (err, results) => {
     if (err) {
       console.error('Erreur lors de la récupération du crédit actuel :', err);
       res.status(500).json({ error: 'Erreur lors de la récupération du crédit actuel' });
@@ -205,34 +173,47 @@ app.get('/current-credit/:userId', (req, res) => {
 // TEST POUR CREDIT TOTAL DU USER
 
 app.get('/current-balance/:userId', (req, res) => {
-  const userId = currentUser.getCurrentUser();
+  const userId = req.params.userId;
   console.log(userId + " " + "est l'ID du User");
-  const query = 'SELECT balance AS currentBalance FROM Tokens WHERE user_id = ?';
 
-  connection.query(query, [userId], (err, results) => {
+  const userQuery = "SELECT * FROM Users WHERE uid = ?"  
+  connection.query(userQuery, [userId], (err, results) => {
     console.log(results);
     if (err) {
-      console.error('Erreur lors de la récupération de la balance actuelle :', err);
-      res.status(500).json({ error: 'Erreur lors de la récupération de la balance actuelle' });
+      console.error('Erreur lors de la récupération du user :', err);
+      res.status(500).json({ error: 'Erreur lors de la récupération du user' });
       return;
     }
-    
-    if (results.length === 0) {
-      res.status(404).json({ error: 'Aucun crédit trouvé pour cet utilisateur' });
-      return;
-    }
-    console.log(results, "balance du user");
-    const currentBalance = results[0].currentBalance / 100; 
+    const user = results[0]; 
 
-    res.status(200).json({ currentBalance });
+    const query = 'SELECT balance AS currentBalance FROM Tokens WHERE user_id = ?';
+  
+    connection.query(query, [user.id], (err, results) => {
+      console.log(results);
+      if (err) {
+        console.error('Erreur lors de la récupération de la balance actuelle :', err);
+        res.status(500).json({ error: 'Erreur lors de la récupération de la balance actuelle' });
+        return;
+      }
+      
+      if (results.length === 0) {
+        res.status(404).json({ error: 'Aucun crédit trouvé pour cet utilisateur' });
+        return;
+      }
+      console.log(results, "balance du user");
+      const currentBalance = results[0].currentBalance / 100; 
+  
+      res.status(200).json({ currentBalance, user });
+    });
   });
+
 });
 
 
 // ROUTE POUR FETCH LES PRONOS POUR LA PAGE GAMESEXOTICS en front 
 
 app.get('/api/match-odds', (req, res) => {
-  const sql = 'SELECT id, prediction FROM match_odds ORDER BY insertion_order'
+  const sql = 'SELECT id, prediction FROM match_odds ORDER BY insertion_order LIMIT 6'
   connection.query(sql, (err, results) => {
     if (err) {
       console.error('Erreur de la requête SQL:', err);
@@ -349,14 +330,6 @@ app.get('/api/userpredictions/:userId', (req, res) => {
 });
 
 
-
-
-
-
-
-
-
-
 // Route d'inscription
 app.post('/register', async (req, res) => {
   const { email, pseudo, dob, uid, password, google } = req.body;
@@ -370,9 +343,6 @@ app.post('/register', async (req, res) => {
           res.status(500).json({ error: 'Erreur lors de l\'inscription' });
           return;
         }
-
-        // Stocker l'ID utilisateur dans le module currentUser
-        currentUser.setCurrentUser(results.insertId);
 
         res.status(201).json({ message: 'Inscription réussie !', userId: results.insertId });
       });
@@ -391,9 +361,6 @@ app.post('/register', async (req, res) => {
           res.status(500).json({ error: 'Erreur lors de l\'inscription' });
           return;
         }
-
-        // Stocker l'ID utilisateur dans le module currentUser
-        currentUser.setCurrentUser(results.insertId);
 
         res.status(201).json({ message: 'Inscription réussie !', userId: results.insertId });
       });
@@ -416,7 +383,7 @@ async function fetchMatchesData() {
       "https://api.football-data.org/v4/matches/",
       {
         headers: {
-          "X-Auth-Token": "1a93aed1ddfe4d9c9e8b0e6b493ee91c"
+          "X-Auth-Token": "1a93aed1ad8b40d1af324616d76267c1"
         }
       }
     );
@@ -425,9 +392,10 @@ async function fetchMatchesData() {
     console.error('Erreur lors de la récupération des données des matches :', error);
   }
 }
-
+// cron.schedule('*/10 * * * * *', fetchMatchesData);
 cron.schedule('0 * * * *', fetchMatchesData);
 
 app.listen(PORT, () => {
   console.log(`Serveur en cours d'exécution sur le port ${PORT}`);
 });
+
