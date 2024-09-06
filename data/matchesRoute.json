@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2024-09-03T09:00:02.850Z",
+  "updatedAt": "2024-09-06T09:00:02.748Z",
   "data": {
     "filters": {
       "season": "2024"
@@ -36,7 +36,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497958,
@@ -45,7 +45,7 @@
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-30T05:21:19Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 533,
           "name": "Le Havre AC",
@@ -102,7 +102,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497951,
@@ -111,7 +111,7 @@
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-18T00:21:13Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 512,
           "name": "Stade Brestois 29",
@@ -168,7 +168,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497956,
@@ -177,7 +177,7 @@
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-18T00:21:13Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 547,
           "name": "Stade de Reims",
@@ -234,7 +234,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497955,
@@ -243,7 +243,7 @@
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-18T00:21:13Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 548,
           "name": "AS Monaco FC",
@@ -300,7 +300,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497957,
@@ -309,7 +309,7 @@
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-19T00:21:15Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 519,
           "name": "AJ Auxerre",
@@ -366,7 +366,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497952,
@@ -375,7 +375,7 @@
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-19T00:21:15Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 518,
           "name": "Montpellier HSC",
@@ -432,7 +432,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497953,
@@ -441,7 +441,7 @@
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-19T00:21:15Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 511,
           "name": "Toulouse FC",
@@ -498,7 +498,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497954,
@@ -507,7 +507,7 @@
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-19T00:21:15Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 532,
           "name": "Angers SCO",
@@ -564,7 +564,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497959,
@@ -573,7 +573,7 @@
         "matchday": 1,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-19T00:21:15Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 529,
           "name": "Stade Rennais FC 1901",
@@ -630,7 +630,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497960,
@@ -639,7 +639,7 @@
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-30T05:21:19Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -696,7 +696,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497967,
@@ -705,7 +705,7 @@
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-25T00:21:10Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 523,
           "name": "Olympique Lyonnais",
@@ -762,7 +762,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497964,
@@ -771,7 +771,7 @@
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-25T00:21:10Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 521,
           "name": "Lille OSC",
@@ -828,7 +828,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497963,
@@ -837,7 +837,7 @@
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-25T00:21:10Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 527,
           "name": "AS Saint-Étienne",
@@ -894,7 +894,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497966,
@@ -903,7 +903,7 @@
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-26T00:21:11Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 546,
           "name": "Racing Club de Lens",
@@ -960,7 +960,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497961,
@@ -969,7 +969,7 @@
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-26T00:21:11Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 576,
           "name": "RC Strasbourg Alsace",
@@ -1026,7 +1026,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497962,
@@ -1035,7 +1035,7 @@
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-26T00:21:11Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 543,
           "name": "FC Nantes",
@@ -1092,7 +1092,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497965,
@@ -1101,7 +1101,7 @@
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-26T00:21:11Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 522,
           "name": "OGC Nice",
@@ -1158,7 +1158,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497968,
@@ -1167,7 +1167,7 @@
         "matchday": 2,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-26T00:21:11Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -1224,7 +1224,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497970,
@@ -1233,7 +1233,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-27T01:32:02Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 523,
           "name": "Olympique Lyonnais",
@@ -1290,7 +1290,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497971,
@@ -1299,7 +1299,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-27T01:32:04Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 512,
           "name": "Stade Brestois 29",
@@ -1356,7 +1356,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497972,
@@ -1365,7 +1365,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-27T01:32:04Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 518,
           "name": "Montpellier HSC",
@@ -1422,7 +1422,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497977,
@@ -1431,7 +1431,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-27T01:32:05Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 511,
           "name": "Toulouse FC",
@@ -1488,7 +1488,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497974,
@@ -1497,7 +1497,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-27T01:32:06Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 548,
           "name": "AS Monaco FC",
@@ -1554,7 +1554,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497973,
@@ -1563,7 +1563,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-27T01:32:06Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 532,
           "name": "Angers SCO",
@@ -1620,7 +1620,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497975,
@@ -1629,7 +1629,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-27T01:32:06Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 533,
           "name": "Le Havre AC",
@@ -1686,7 +1686,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497976,
@@ -1695,7 +1695,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-27T01:32:06Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 547,
           "name": "Stade de Reims",
@@ -1752,7 +1752,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497969,
@@ -1761,7 +1761,7 @@
         "matchday": 3,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-30T05:21:19Z",
+        "lastUpdated": "2024-09-06T00:20:52Z",
         "homeTeam": {
           "id": 521,
           "name": "Lille OSC",
@@ -1818,134 +1818,16 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
-          "winner": null
-        },
-        "id": 497978,
-        "utcDate": "2024-09-14T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 4,
-        "stage": "REGULAR_SEASON",
-        "group": null,
-        "lastUpdated": "2024-08-23T15:21:26Z",
-        "homeTeam": {
-          "id": 519,
-          "name": "AJ Auxerre",
-          "shortName": "Auxerre",
-          "tla": "AJA",
-          "crest": "https://crests.football-data.org/519.png"
-        },
-        "awayTeam": {
-          "id": 548,
-          "name": "AS Monaco FC",
-          "shortName": "Monaco",
-          "tla": "ASM",
-          "crest": "https://crests.football-data.org/548.png"
-        },
-        "score": {
-          "winner": null,
-          "duration": "REGULAR",
-          "fullTime": {
-            "home": null,
-            "away": null
-          },
-          "halfTime": {
-            "home": null,
-            "away": null
-          }
-        },
-        "odds": {
-          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-        },
-        "referees": []
-      },
-      {
-        "area": {
-          "id": 2081,
-          "name": "France",
-          "code": "FRA",
-          "flag": "https://crests.football-data.org/773.svg"
-        },
-        "competition": {
-          "id": 2015,
-          "name": "Ligue 1",
-          "code": "FL1",
-          "type": "LEAGUE",
-          "emblem": "https://crests.football-data.org/FL1.png"
-        },
-        "season": {
-          "id": 2290,
-          "startDate": "2024-08-18",
-          "endDate": "2025-05-18",
-          "currentMatchday": 3,
-          "winner": null
-        },
-        "id": 497980,
-        "utcDate": "2024-09-14T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 4,
-        "stage": "REGULAR_SEASON",
-        "group": null,
-        "lastUpdated": "2024-08-23T15:21:26Z",
-        "homeTeam": {
-          "id": 546,
-          "name": "Racing Club de Lens",
-          "shortName": "RC Lens",
-          "tla": "RCL",
-          "crest": "https://crests.football-data.org/546.png"
-        },
-        "awayTeam": {
-          "id": 523,
-          "name": "Olympique Lyonnais",
-          "shortName": "Olympique Lyon",
-          "tla": "LYO",
-          "crest": "https://crests.football-data.org/523.png"
-        },
-        "score": {
-          "winner": null,
-          "duration": "REGULAR",
-          "fullTime": {
-            "home": null,
-            "away": null
-          },
-          "halfTime": {
-            "home": null,
-            "away": null
-          }
-        },
-        "odds": {
-          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-        },
-        "referees": []
-      },
-      {
-        "area": {
-          "id": 2081,
-          "name": "France",
-          "code": "FRA",
-          "flag": "https://crests.football-data.org/773.svg"
-        },
-        "competition": {
-          "id": 2015,
-          "name": "Ligue 1",
-          "code": "FL1",
-          "type": "LEAGUE",
-          "emblem": "https://crests.football-data.org/FL1.png"
-        },
-        "season": {
-          "id": 2290,
-          "startDate": "2024-08-18",
-          "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497984,
-        "utcDate": "2024-09-14T00:00:00Z",
-        "status": "SCHEDULED",
+        "utcDate": "2024-09-13T18:45:00Z",
+        "status": "TIMED",
         "matchday": 4,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-23T15:21:26Z",
+        "lastUpdated": "2024-09-04T20:20:56Z",
         "homeTeam": {
           "id": 527,
           "name": "AS Saint-Étienne",
@@ -1995,16 +1877,16 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497985,
-        "utcDate": "2024-09-14T00:00:00Z",
-        "status": "SCHEDULED",
+        "utcDate": "2024-09-14T15:00:00Z",
+        "status": "TIMED",
         "matchday": 4,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-23T15:21:26Z",
+        "lastUpdated": "2024-09-04T20:20:56Z",
         "homeTeam": {
           "id": 516,
           "name": "Olympique de Marseille",
@@ -2054,16 +1936,75 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
-        "id": 497986,
-        "utcDate": "2024-09-14T00:00:00Z",
-        "status": "SCHEDULED",
+        "id": 497978,
+        "utcDate": "2024-09-14T17:00:00Z",
+        "status": "TIMED",
         "matchday": 4,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-08-30T05:21:19Z",
+        "lastUpdated": "2024-09-04T20:20:56Z",
+        "homeTeam": {
+          "id": 519,
+          "name": "AJ Auxerre",
+          "shortName": "Auxerre",
+          "tla": "AJA",
+          "crest": "https://crests.football-data.org/519.png"
+        },
+        "awayTeam": {
+          "id": 548,
+          "name": "AS Monaco FC",
+          "shortName": "Monaco",
+          "tla": "ASM",
+          "crest": "https://crests.football-data.org/548.png"
+        },
+        "score": {
+          "winner": null,
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": null,
+            "away": null
+          },
+          "halfTime": {
+            "home": null,
+            "away": null
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": []
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 2290,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-18",
+          "currentMatchday": 4,
+          "winner": null
+        },
+        "id": 497986,
+        "utcDate": "2024-09-14T19:00:00Z",
+        "status": "TIMED",
+        "matchday": 4,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-09-04T20:20:56Z",
         "homeTeam": {
           "id": 524,
           "name": "Paris Saint-Germain FC",
@@ -2113,7 +2054,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497979,
@@ -2172,7 +2113,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497981,
@@ -2231,7 +2172,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497982,
@@ -2290,7 +2231,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497983,
@@ -2349,29 +2290,29 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
-        "id": 497987,
-        "utcDate": "2024-09-22T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 5,
+        "id": 497980,
+        "utcDate": "2024-09-15T18:45:00Z",
+        "status": "TIMED",
+        "matchday": 4,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-06-27T11:04:29Z",
+        "lastUpdated": "2024-09-04T20:20:56Z",
         "homeTeam": {
+          "id": 546,
+          "name": "Racing Club de Lens",
+          "shortName": "RC Lens",
+          "tla": "RCL",
+          "crest": "https://crests.football-data.org/546.png"
+        },
+        "awayTeam": {
           "id": 523,
           "name": "Olympique Lyonnais",
           "shortName": "Olympique Lyon",
           "tla": "LYO",
           "crest": "https://crests.football-data.org/523.png"
-        },
-        "awayTeam": {
-          "id": 516,
-          "name": "Olympique de Marseille",
-          "shortName": "Marseille",
-          "tla": "MAR",
-          "crest": "https://crests.football-data.org/516.png"
         },
         "score": {
           "winner": null,
@@ -2408,16 +2349,16 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497988,
-        "utcDate": "2024-09-22T00:00:00Z",
-        "status": "SCHEDULED",
+        "utcDate": "2024-09-20T18:45:00Z",
+        "status": "TIMED",
         "matchday": 5,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-06-27T11:04:29Z",
+        "lastUpdated": "2024-09-04T20:20:56Z",
         "homeTeam": {
           "id": 522,
           "name": "OGC Nice",
@@ -2467,75 +2408,16 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
-          "winner": null
-        },
-        "id": 497989,
-        "utcDate": "2024-09-22T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 5,
-        "stage": "REGULAR_SEASON",
-        "group": null,
-        "lastUpdated": "2024-08-30T05:21:19Z",
-        "homeTeam": {
-          "id": 547,
-          "name": "Stade de Reims",
-          "shortName": "Stade de Reims",
-          "tla": "SDR",
-          "crest": "https://crests.football-data.org/547.png"
-        },
-        "awayTeam": {
-          "id": 524,
-          "name": "Paris Saint-Germain FC",
-          "shortName": "PSG",
-          "tla": "PSG",
-          "crest": "https://crests.football-data.org/524.png"
-        },
-        "score": {
-          "winner": null,
-          "duration": "REGULAR",
-          "fullTime": {
-            "home": null,
-            "away": null
-          },
-          "halfTime": {
-            "home": null,
-            "away": null
-          }
-        },
-        "odds": {
-          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
-        },
-        "referees": []
-      },
-      {
-        "area": {
-          "id": 2081,
-          "name": "France",
-          "code": "FRA",
-          "flag": "https://crests.football-data.org/773.svg"
-        },
-        "competition": {
-          "id": 2015,
-          "name": "Ligue 1",
-          "code": "FL1",
-          "type": "LEAGUE",
-          "emblem": "https://crests.football-data.org/FL1.png"
-        },
-        "season": {
-          "id": 2290,
-          "startDate": "2024-08-18",
-          "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497993,
-        "utcDate": "2024-09-22T00:00:00Z",
-        "status": "SCHEDULED",
+        "utcDate": "2024-09-21T15:00:00Z",
+        "status": "TIMED",
         "matchday": 5,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-06-27T11:04:29Z",
+        "lastUpdated": "2024-09-04T20:20:56Z",
         "homeTeam": {
           "id": 521,
           "name": "Lille OSC",
@@ -2585,16 +2467,16 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497994,
-        "utcDate": "2024-09-22T00:00:00Z",
-        "status": "SCHEDULED",
+        "utcDate": "2024-09-21T17:00:00Z",
+        "status": "TIMED",
         "matchday": 5,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-06-27T11:04:29Z",
+        "lastUpdated": "2024-09-04T20:20:56Z",
         "homeTeam": {
           "id": 529,
           "name": "Stade Rennais FC 1901",
@@ -2644,16 +2526,75 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
-        "id": 497995,
-        "utcDate": "2024-09-22T00:00:00Z",
-        "status": "SCHEDULED",
+        "id": 497989,
+        "utcDate": "2024-09-21T19:00:00Z",
+        "status": "TIMED",
         "matchday": 5,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2024-06-27T11:04:29Z",
+        "lastUpdated": "2024-09-04T20:20:56Z",
+        "homeTeam": {
+          "id": 547,
+          "name": "Stade de Reims",
+          "shortName": "Stade de Reims",
+          "tla": "SDR",
+          "crest": "https://crests.football-data.org/547.png"
+        },
+        "awayTeam": {
+          "id": 524,
+          "name": "Paris Saint-Germain FC",
+          "shortName": "PSG",
+          "tla": "PSG",
+          "crest": "https://crests.football-data.org/524.png"
+        },
+        "score": {
+          "winner": null,
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": null,
+            "away": null
+          },
+          "halfTime": {
+            "home": null,
+            "away": null
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": []
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 2290,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-18",
+          "currentMatchday": 4,
+          "winner": null
+        },
+        "id": 497995,
+        "utcDate": "2024-09-22T13:00:00Z",
+        "status": "TIMED",
+        "matchday": 5,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-09-04T20:20:56Z",
         "homeTeam": {
           "id": 548,
           "name": "AS Monaco FC",
@@ -2703,7 +2644,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497990,
@@ -2762,7 +2703,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497991,
@@ -2821,7 +2762,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497992,
@@ -2880,7 +2821,66 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
+          "winner": null
+        },
+        "id": 497987,
+        "utcDate": "2024-09-22T18:45:00Z",
+        "status": "TIMED",
+        "matchday": 5,
+        "stage": "REGULAR_SEASON",
+        "group": null,
+        "lastUpdated": "2024-09-04T20:20:56Z",
+        "homeTeam": {
+          "id": 523,
+          "name": "Olympique Lyonnais",
+          "shortName": "Olympique Lyon",
+          "tla": "LYO",
+          "crest": "https://crests.football-data.org/523.png"
+        },
+        "awayTeam": {
+          "id": 516,
+          "name": "Olympique de Marseille",
+          "shortName": "Marseille",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/516.png"
+        },
+        "score": {
+          "winner": null,
+          "duration": "REGULAR",
+          "fullTime": {
+            "home": null,
+            "away": null
+          },
+          "halfTime": {
+            "home": null,
+            "away": null
+          }
+        },
+        "odds": {
+          "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+        },
+        "referees": []
+      },
+      {
+        "area": {
+          "id": 2081,
+          "name": "France",
+          "code": "FRA",
+          "flag": "https://crests.football-data.org/773.svg"
+        },
+        "competition": {
+          "id": 2015,
+          "name": "Ligue 1",
+          "code": "FL1",
+          "type": "LEAGUE",
+          "emblem": "https://crests.football-data.org/FL1.png"
+        },
+        "season": {
+          "id": 2290,
+          "startDate": "2024-08-18",
+          "endDate": "2025-05-18",
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497996,
@@ -2939,7 +2939,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497997,
@@ -2998,7 +2998,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497998,
@@ -3057,7 +3057,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 497999,
@@ -3116,7 +3116,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498000,
@@ -3175,7 +3175,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498001,
@@ -3234,7 +3234,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498002,
@@ -3293,7 +3293,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498003,
@@ -3352,7 +3352,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498004,
@@ -3411,7 +3411,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498005,
@@ -3470,7 +3470,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498006,
@@ -3529,7 +3529,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498007,
@@ -3588,7 +3588,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498008,
@@ -3647,7 +3647,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498009,
@@ -3706,7 +3706,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498010,
@@ -3765,7 +3765,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498011,
@@ -3824,7 +3824,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498012,
@@ -3883,7 +3883,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498013,
@@ -3942,7 +3942,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498014,
@@ -4001,7 +4001,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498015,
@@ -4060,7 +4060,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498016,
@@ -4119,7 +4119,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498017,
@@ -4178,7 +4178,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498018,
@@ -4237,7 +4237,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498019,
@@ -4296,7 +4296,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498020,
@@ -4355,7 +4355,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498021,
@@ -4414,7 +4414,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498022,
@@ -4473,7 +4473,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498023,
@@ -4532,7 +4532,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498024,
@@ -4591,7 +4591,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498025,
@@ -4650,7 +4650,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498026,
@@ -4709,7 +4709,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498027,
@@ -4768,7 +4768,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498028,
@@ -4827,7 +4827,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498029,
@@ -4886,7 +4886,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498030,
@@ -4945,7 +4945,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498031,
@@ -5004,7 +5004,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498032,
@@ -5063,7 +5063,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498033,
@@ -5122,7 +5122,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498034,
@@ -5181,7 +5181,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498035,
@@ -5240,7 +5240,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498036,
@@ -5299,7 +5299,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498037,
@@ -5358,7 +5358,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498038,
@@ -5417,7 +5417,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498039,
@@ -5476,7 +5476,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498040,
@@ -5535,7 +5535,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498041,
@@ -5594,7 +5594,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498042,
@@ -5653,7 +5653,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498043,
@@ -5712,7 +5712,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498044,
@@ -5771,7 +5771,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498045,
@@ -5830,7 +5830,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498046,
@@ -5889,7 +5889,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498047,
@@ -5948,7 +5948,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498048,
@@ -6007,7 +6007,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498049,
@@ -6066,7 +6066,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498050,
@@ -6125,7 +6125,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498051,
@@ -6184,7 +6184,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498052,
@@ -6243,7 +6243,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498053,
@@ -6302,7 +6302,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498054,
@@ -6361,7 +6361,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498055,
@@ -6420,7 +6420,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498056,
@@ -6479,7 +6479,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498057,
@@ -6538,7 +6538,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498058,
@@ -6597,7 +6597,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498059,
@@ -6656,7 +6656,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498060,
@@ -6715,7 +6715,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498061,
@@ -6774,7 +6774,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498062,
@@ -6833,7 +6833,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498063,
@@ -6892,7 +6892,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498064,
@@ -6951,7 +6951,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498065,
@@ -7010,7 +7010,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498066,
@@ -7069,7 +7069,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498067,
@@ -7128,7 +7128,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498068,
@@ -7187,7 +7187,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498069,
@@ -7246,7 +7246,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498070,
@@ -7305,7 +7305,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498071,
@@ -7364,7 +7364,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498072,
@@ -7423,7 +7423,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498073,
@@ -7482,7 +7482,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498074,
@@ -7541,7 +7541,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498075,
@@ -7600,7 +7600,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498076,
@@ -7659,7 +7659,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498077,
@@ -7718,7 +7718,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498078,
@@ -7777,7 +7777,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498079,
@@ -7836,7 +7836,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498080,
@@ -7895,7 +7895,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498081,
@@ -7954,7 +7954,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498082,
@@ -8013,7 +8013,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498083,
@@ -8072,7 +8072,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498084,
@@ -8131,7 +8131,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498085,
@@ -8190,7 +8190,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498086,
@@ -8249,7 +8249,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498087,
@@ -8308,7 +8308,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498088,
@@ -8367,7 +8367,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498089,
@@ -8426,7 +8426,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498090,
@@ -8485,7 +8485,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498091,
@@ -8544,7 +8544,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498092,
@@ -8603,7 +8603,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498093,
@@ -8662,7 +8662,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498094,
@@ -8721,7 +8721,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498095,
@@ -8780,7 +8780,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498096,
@@ -8839,7 +8839,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498097,
@@ -8898,7 +8898,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498098,
@@ -8957,7 +8957,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498099,
@@ -9016,7 +9016,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498100,
@@ -9075,7 +9075,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498101,
@@ -9134,7 +9134,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498102,
@@ -9193,7 +9193,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498103,
@@ -9252,7 +9252,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498104,
@@ -9311,7 +9311,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498105,
@@ -9370,7 +9370,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498106,
@@ -9429,7 +9429,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498107,
@@ -9488,7 +9488,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498108,
@@ -9547,7 +9547,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498109,
@@ -9606,7 +9606,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498110,
@@ -9665,7 +9665,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498111,
@@ -9724,7 +9724,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498112,
@@ -9783,7 +9783,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498113,
@@ -9842,7 +9842,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498114,
@@ -9901,7 +9901,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498115,
@@ -9960,7 +9960,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498116,
@@ -10019,7 +10019,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498117,
@@ -10078,7 +10078,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498118,
@@ -10137,7 +10137,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498119,
@@ -10196,7 +10196,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498120,
@@ -10255,7 +10255,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498121,
@@ -10314,7 +10314,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498122,
@@ -10373,7 +10373,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498123,
@@ -10432,7 +10432,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498124,
@@ -10491,7 +10491,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498125,
@@ -10550,7 +10550,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498126,
@@ -10609,7 +10609,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498127,
@@ -10668,7 +10668,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498128,
@@ -10727,7 +10727,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498129,
@@ -10786,7 +10786,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498130,
@@ -10845,7 +10845,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498131,
@@ -10904,7 +10904,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498132,
@@ -10963,7 +10963,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498133,
@@ -11022,7 +11022,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498134,
@@ -11081,7 +11081,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498135,
@@ -11140,7 +11140,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498136,
@@ -11199,7 +11199,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498137,
@@ -11258,7 +11258,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498138,
@@ -11317,7 +11317,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498139,
@@ -11376,7 +11376,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498140,
@@ -11435,7 +11435,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498141,
@@ -11494,7 +11494,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498142,
@@ -11553,7 +11553,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498143,
@@ -11612,7 +11612,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498144,
@@ -11671,7 +11671,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498145,
@@ -11730,7 +11730,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498146,
@@ -11789,7 +11789,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498147,
@@ -11848,7 +11848,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498148,
@@ -11907,7 +11907,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498149,
@@ -11966,7 +11966,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498150,
@@ -12025,7 +12025,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498151,
@@ -12084,7 +12084,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498152,
@@ -12143,7 +12143,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498153,
@@ -12202,7 +12202,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498154,
@@ -12261,7 +12261,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498155,
@@ -12320,7 +12320,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498156,
@@ -12379,7 +12379,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498157,
@@ -12438,7 +12438,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498158,
@@ -12497,7 +12497,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498159,
@@ -12556,7 +12556,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498160,
@@ -12615,7 +12615,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498161,
@@ -12674,7 +12674,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498162,
@@ -12733,7 +12733,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498163,
@@ -12792,7 +12792,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498164,
@@ -12851,7 +12851,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498165,
@@ -12910,7 +12910,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498166,
@@ -12969,7 +12969,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498167,
@@ -13028,7 +13028,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498168,
@@ -13087,7 +13087,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498169,
@@ -13146,7 +13146,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498170,
@@ -13205,7 +13205,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498171,
@@ -13264,7 +13264,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498172,
@@ -13323,7 +13323,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498173,
@@ -13382,7 +13382,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498174,
@@ -13441,7 +13441,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498175,
@@ -13500,7 +13500,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498176,
@@ -13559,7 +13559,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498177,
@@ -13618,7 +13618,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498178,
@@ -13677,7 +13677,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498179,
@@ -13736,7 +13736,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498180,
@@ -13795,7 +13795,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498181,
@@ -13854,7 +13854,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498182,
@@ -13913,7 +13913,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498183,
@@ -13972,7 +13972,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498184,
@@ -14031,7 +14031,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498185,
@@ -14090,7 +14090,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498186,
@@ -14149,7 +14149,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498187,
@@ -14208,7 +14208,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498188,
@@ -14267,7 +14267,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498189,
@@ -14326,7 +14326,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498190,
@@ -14385,7 +14385,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498191,
@@ -14444,7 +14444,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498192,
@@ -14503,7 +14503,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498193,
@@ -14562,7 +14562,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498194,
@@ -14621,7 +14621,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498195,
@@ -14680,7 +14680,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498196,
@@ -14739,7 +14739,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498197,
@@ -14798,7 +14798,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498198,
@@ -14857,7 +14857,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498199,
@@ -14916,7 +14916,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498200,
@@ -14975,7 +14975,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498201,
@@ -15034,7 +15034,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498202,
@@ -15093,7 +15093,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498203,
@@ -15152,7 +15152,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498204,
@@ -15211,7 +15211,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498205,
@@ -15270,7 +15270,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498206,
@@ -15329,7 +15329,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498207,
@@ -15388,7 +15388,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498208,
@@ -15447,7 +15447,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498209,
@@ -15506,7 +15506,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498210,
@@ -15565,7 +15565,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498211,
@@ -15624,7 +15624,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498212,
@@ -15683,7 +15683,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498213,
@@ -15742,7 +15742,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498214,
@@ -15801,7 +15801,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498215,
@@ -15860,7 +15860,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498216,
@@ -15919,7 +15919,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498217,
@@ -15978,7 +15978,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498218,
@@ -16037,7 +16037,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498219,
@@ -16096,7 +16096,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498220,
@@ -16155,7 +16155,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498221,
@@ -16214,7 +16214,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498222,
@@ -16273,7 +16273,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498223,
@@ -16332,7 +16332,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498224,
@@ -16391,7 +16391,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498225,
@@ -16450,7 +16450,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498226,
@@ -16509,7 +16509,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498227,
@@ -16568,7 +16568,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498228,
@@ -16627,7 +16627,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498229,
@@ -16686,7 +16686,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498230,
@@ -16745,7 +16745,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498231,
@@ -16804,7 +16804,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498232,
@@ -16863,7 +16863,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498233,
@@ -16922,7 +16922,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498234,
@@ -16981,7 +16981,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498235,
@@ -17040,7 +17040,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498236,
@@ -17099,7 +17099,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498237,
@@ -17158,7 +17158,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498238,
@@ -17217,7 +17217,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498239,
@@ -17276,7 +17276,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498240,
@@ -17335,7 +17335,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498241,
@@ -17394,7 +17394,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498242,
@@ -17453,7 +17453,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498243,
@@ -17512,7 +17512,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498244,
@@ -17571,7 +17571,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498245,
@@ -17630,7 +17630,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498246,
@@ -17689,7 +17689,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498247,
@@ -17748,7 +17748,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498248,
@@ -17807,7 +17807,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498249,
@@ -17866,7 +17866,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498250,
@@ -17925,7 +17925,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498251,
@@ -17984,7 +17984,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498252,
@@ -18043,7 +18043,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498253,
@@ -18102,7 +18102,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498254,
@@ -18161,7 +18161,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498255,
@@ -18220,7 +18220,7 @@
           "id": 2290,
           "startDate": "2024-08-18",
           "endDate": "2025-05-18",
-          "currentMatchday": 3,
+          "currentMatchday": 4,
           "winner": null
         },
         "id": 498256,

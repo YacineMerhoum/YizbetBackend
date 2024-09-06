@@ -1,6 +1,7 @@
-const stripe = require('stripe')('sk_test_51PZaC3J7Z5palmd7vGlYPvqoEEQRtm0NHuDwV6C9V1n9HVFtBH0xt4UdwSzTbGZvz9zdTrSpPFiYVPNZMsQJXtit009ARd2eID');
-const endpointSecret = 'whsec_0d2deed7e9cb2176361fdb6f166e934391c70f47889d38fb624c7ceac18e62df';
-// const currentUser = require('../Middlewares/currentUser');
+require('dotenv').config()
+
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
+const endpointSecret = process.env.STRIPE_WEBHOOK_SECRET
 
 exports.createCheckoutSession = async (req, res, connection) => {
   try {
@@ -18,9 +19,9 @@ exports.createCheckoutSession = async (req, res, connection) => {
         },
       ],
       mode: 'payment',
-      success_url: `http://localhost:3000?success=true`,
-      cancel_url: `http://localhost:3000?canceled=true`,
-      metadata: { userId: `${userId.id}`},
+      success_url: `${process.env.CLIENT_URL}?success=true`,
+      cancel_url: `${process.env.CLIENT_URL}?canceled=true`,
+      metadata: { userId: `${userId.id}` },
     });
 
     res.status(200).json({ url: session.url });
@@ -50,16 +51,17 @@ exports.webhookHandler = async (req, res, connection) => {
 
         const paymentIntent = await stripe.paymentIntents.retrieve(session.payment_intent);
         const amount = paymentIntent.amount;
-        console.log('userId', userId)
-        // Enregistrer le paiement dans la table Payments
+        console.log('userId', userId);
+
+        //Save paiement dans la table Payments
         const paymentQuery = 'INSERT INTO Payments (payment_intent_id, amount, user_id, created_at) VALUES (?, ?, ?, ?)';
         connection.query(paymentQuery, [paymentIntent.id, amount, userId, new Date()], (err, results) => {
           if (err) {
             console.error('Erreur lors de l\'insertion des données de paiement :', err);
           } else {
             console.log('PaymentIntent enregistré avec succès!');
-            
-            // Vérifier l'existence de l'utilisateur dans la table Tokens
+
+            // Vérifier le user dans la table Tokens
             const checkUserQuery = 'SELECT COUNT(*) AS count FROM Tokens WHERE user_id = ?';
             connection.query(checkUserQuery, [userId], (err, results) => {
               if (err) {
@@ -101,8 +103,8 @@ exports.webhookHandler = async (req, res, connection) => {
         break;
       case 'charge.updated':
         const chargeUpdate = event.data.object;
-          console.log(`Charge succeeded: ${chargeUpdate.id}`);
-          break;
+        console.log(`Charge succeeded: ${chargeUpdate.id}`);
+        break;
       case 'payment_intent.succeeded':
         const paymentIntentObj = event.data.object;
         console.log(`PaymentIntent succeeded: ${paymentIntentObj.id}`);

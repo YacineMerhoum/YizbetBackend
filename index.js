@@ -72,23 +72,7 @@ app.use('/api', deleteRoute);
 
 
 
-// app.get('/user/:userId', (res, req)=>{
-//   console.log(req.params)
-//   // Première requête pour obtenir l'ID utilisateur à partir du uid Firebase
-//   const userId = req.params.userId
-//   const query = 'SELECT id FROM Users WHERE uid = ?';
-//   connection.query(query, [userId], (err, results) => {
-//     if (err) {
-//       console.error('Erreur lors de la récupération du user :', err);
-//       res.status(500).json({ error: 'Erreur lors de la récupération du crédit actuel' });
-//       return;
-//     }
-    
-//     const user= results
 
-//     res.status(200).json(user);
-//   });
-// })
 app.get('/user/:userId', (req, res) => {
   console.log(req.params);
 
@@ -118,27 +102,27 @@ app.get('/user/:userId', (req, res) => {
 
 
 
-// app.get('/api/get-user-id/:userId', (req, res) => {
-//   const userId = req.params.userId;
-//   console.log('Requête reçue pour l\'UID:', userId);
+app.get('/api/get-user-id/:userId', (req, res) => {
+  const userId = req.params.userId;
+  console.log('Requête reçue pour l\'UID:', userId);
 
-//   const query = 'SELECT id FROM Users WHERE uid = ?';
-//   connection.query(query, [userId], (err, results) => {
-//       if (err) {
-//           console.error('Erreur lors de la récupération du user:', err);
-//           return res.status(500).json({ error: 'Erreur lors de la récupération du crédit actuel' });
-//       }
+  const query = 'SELECT id FROM Users WHERE uid = ?';
+  connection.query(query, [userId], (err, results) => {
+      if (err) {
+          console.error('Erreur lors de la récupération du user:', err);
+          return res.status(500).json({ error: 'Erreur lors de la récupération du crédit actuel' });
+      }
       
-//       console.log('Résultats SQL:', results);
-//       if (results.length === 0) {
-//           console.log('Utilisateur non trouvé pour l\'UID:', userId);
-//           return res.status(404).json({ error: 'Utilisateur non trouvé' });
-//       }
+      console.log('Résultats SQL:', results);
+      if (results.length === 0) {
+          console.log('Utilisateur non trouvé pour l\'UID:', userId);
+          return res.status(404).json({ error: 'Utilisateur non trouvé' });
+      }
 
-//       const user = results[0];
-//       res.status(200).json(user);
-//   });
-// });
+      const user = results[0];
+      res.status(200).json(user);
+  });
+});
 
 
 
@@ -152,7 +136,7 @@ app.get('/current-credit/:userId', (req, res) => {
 
   const query = 'SELECT amount AS currentCredit FROM Payments WHERE user_id = ?';
 
-  connection.query(query, [user.id], (err, results) => {
+  connection.query(query, [userId], (err, results) => {  // Utilisation de userId au lieu de user.id
     if (err) {
       console.error('Erreur lors de la récupération du crédit actuel :', err);
       res.status(500).json({ error: 'Erreur lors de la récupération du crédit actuel' });
@@ -164,11 +148,12 @@ app.get('/current-credit/:userId', (req, res) => {
       return;
     }
     console.log(results , "credit du user");
-    const currentCredit = results[0].currentCredit/100
+    const currentCredit = results[0].currentCredit / 100;
 
     res.status(200).json({ currentCredit });
   });
 });
+
 
 // TEST POUR CREDIT TOTAL DU USER
 
