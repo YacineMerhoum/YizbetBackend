@@ -11,7 +11,7 @@ router.delete("/delete-account/:userId", (req, res) => {
   //
   const deleteTokensQuery = "DELETE FROM Tokens WHERE user_id = ?";
 
-  const deletePaymentsQuery = "DELETE FROM Payments WHERE user_id = ?";
+  const deletePaymentsQuery = "DELETE FROM payments WHERE user_id = ?";
 
   const deleteUserQuery = "DELETE FROM Users WHERE id = ?";
 

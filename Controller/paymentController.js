@@ -54,7 +54,7 @@ exports.webhookHandler = async (req, res, connection) => {
         console.log('userId', userId);
 
         //Save paiement dans la table Payments
-        const paymentQuery = 'INSERT INTO Payments (payment_intent_id, amount, user_id, created_at) VALUES (?, ?, ?, ?)';
+        const paymentQuery = 'INSERT INTO payments (payment_intent_id, amount, user_id, created_at) VALUES (?, ?, ?, ?)';
         connection.query(paymentQuery, [paymentIntent.id, amount, userId, new Date()], (err, results) => {
           if (err) {
             console.error('Erreur lors de l\'insertion des données de paiement :', err);

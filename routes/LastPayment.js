@@ -7,7 +7,7 @@ router.get('/:userId', (req, res) => {
 
   const query = `
     SELECT amount 
-    FROM Payments 
+    FROM payments 
     WHERE user_id = ? 
     ORDER BY created_at DESC 
     LIMIT 1

@@ -1,9 +1,9 @@
-const fs = require("fs");
-const path = require("path");
-const express = require("express");
-const axios = require("axios");
-const cron = require("node-cron");
-const mysql = require("mysql2/promise");
+const fs = require("fs")
+const path = require("path")
+const express = require("express")
+const axios = require("axios")
+const cron = require("node-cron")
+const mysql = require("mysql2/promise")
 
 const router = express.Router();
 
@@ -40,7 +40,7 @@ async function fetchDataAndSaveToFile() {
     console.log(`Données enregistrées dans ${filePath}`)
 
     // Insérer les données dans la base de données
-    await insertDataIntoDatabase(data);
+    await insertDataIntoDatabase(data)
   } catch (error) {
     console.error(
       "Erreur lors de la récupération et de l'enregistrement des données :",
@@ -63,10 +63,10 @@ async function insertDataIntoDatabase(oddsData) {
     for (const match of pinnacleMatches) {
       const { id, sport_key, sport_title, commence_time, home_team, away_team, bookmakers } = match
 
-      const pinnacleBookmaker = bookmakers.find(bookmaker => bookmaker.key === "pinnacle");
+      const pinnacleBookmaker = bookmakers.find(bookmaker => bookmaker.key === "pinnacle")
 
       if (pinnacleBookmaker && pinnacleBookmaker.markets.length > 0) {
-        const h2hMarket = pinnacleBookmaker.markets.find(market => market.key === "h2h");
+        const h2hMarket = pinnacleBookmaker.markets.find(market => market.key === "h2h")
         if (h2hMarket) {
           const outcomes = h2hMarket.outcomes;
           //Query delete all match before add
