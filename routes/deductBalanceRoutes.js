@@ -14,8 +14,8 @@ router.post('/deduct-balance', (req, res) => {
   }
 
 
-  const userIdQuery = 'SELECT id FROM Users WHERE uid = ?';
-  const query = 'UPDATE Tokens SET balance = balance - ? WHERE user_id = ? AND balance >= ?'
+  const userIdQuery = 'SELECT id FROM users WHERE uid = ?';
+  const query = 'UPDATE tokens SET balance = balance - ? WHERE user_id = ? AND balance >= ?'
 
   connection.query(userIdQuery, [userId], (err, results) => {
     if (err) {
@@ -45,4 +45,4 @@ router.post('/deduct-balance', (req, res) => {
   })
 })
 
-module.exports = router;
+module.exports = router

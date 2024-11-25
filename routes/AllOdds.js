@@ -4,10 +4,10 @@ const express = require("express")
 const axios = require("axios")
 const cron = require("node-cron")
 const mysql = require("mysql2/promise")
+require('dotenv').config()
 
-const router = express.Router();
+const router = express.Router()
 
-const apiKey = "90c75e4ec804f6d9a3f0d30592ea7d03"
 const dataDir = path.resolve(__dirname, "../data")
 router.use("/data", express.static(dataDir))
 
@@ -16,19 +16,19 @@ const dbConfig = {
   user: 'root',
   password: '',
   database: 'Yizbet'
-};
+}
 
 async function fetchDataAndSaveToFile() {
   try {
     const response = await axios.get(
-      `https://api.the-odds-api.com/v4/sports/soccer/odds?regions=eu&oddsFormat=decimal&apiKey=${apiKey}`
-    );
-    const data = response.data;
+      `${process.env.ODDS_API_URL}?regions=${process.env.REGIONS}&oddsFormat=${process.env.ODDS_FORMAT}&apiKey=${process.env.API_KEY}`
+    )
+    const data = response.data
 
     const updatedData = {
       updatedAt: new Date().toISOString(),
       data: data,
-    };
+    }
 
     // Vérifier l'existence du répertoire de données
     if (!fs.existsSync(dataDir)) {
@@ -51,13 +51,13 @@ async function fetchDataAndSaveToFile() {
 
 async function insertDataIntoDatabase(oddsData) {
   try {
-    const connection = await mysql.createConnection(dbConfig);
+    const connection = await mysql.createConnection(dbConfig)
     console.log("Connected to the database")
 
     // Filtrer les matchs de Pinnacle et garder seulement les 6 premiers
     const pinnacleMatches = oddsData.filter(match => 
       match.bookmakers.some(bookmaker => bookmaker.key === "pinnacle")
-    ).slice(0, 6);
+    ).slice(0, 6)
 
     let order = 1; // Initialiser l'ordre d'insertion
     for (const match of pinnacleMatches) {
@@ -68,7 +68,7 @@ async function insertDataIntoDatabase(oddsData) {
       if (pinnacleBookmaker && pinnacleBookmaker.markets.length > 0) {
         const h2hMarket = pinnacleBookmaker.markets.find(market => market.key === "h2h")
         if (h2hMarket) {
-          const outcomes = h2hMarket.outcomes;
+          const outcomes = h2hMarket.outcomes
           //Query delete all match before add
           const query = `
             INSERT INTO match_odds (id, sport_key, sport_title, commence_time, home_team, away_team, bookmaker_key, bookmaker_title, last_update, home_price, away_price, draw_price, insertion_order)
@@ -95,40 +95,40 @@ async function insertDataIntoDatabase(oddsData) {
             outcomes.find(outcome => outcome.name === away_team)?.price || null,
             outcomes.find(outcome => outcome.name === 'Draw')?.price || null,
             order++ 
-          ]);
+          ])
         }
       }
     }
 
-    console.log("Data inserted into the database successfully");
-    await connection.end();
+    console.log("Data inserted into the database successfully")
+    await connection.end()
   } catch (error) {
-    console.error("Error inserting data into the database:", error);
+    console.error("Error inserting data into the database:", error)
   }
 }
 
-
+// MISE EN PLACE DU CRON actuel de 24h
 // cron.schedule('*/10 * * * * *', () => {
   cron.schedule('0 * * * *', () => {
   console.log(
     "Exécution de la tâche planifiée : récupération des données des côtes"
-  );
-  fetchDataAndSaveToFile();
-});
+  )
+  fetchDataAndSaveToFile()
+})
 
 router.get("/matchesOdds", (req, res) => {
   try {
-    const filePath = path.join(dataDir, "matchesOdds.json");
-    console.log(`Reading data from ${filePath}...`);
-    const data = fs.readFileSync(filePath, "utf-8");
+    const filePath = path.join(dataDir, "matchesOdds.json")
+    console.log(`Reading data from ${filePath}...`)
+    const data = fs.readFileSync(filePath, "utf-8")
     res.json(JSON.parse(data));
   } catch (error) {
     console.error(
       "Erreur lors de la récupération des données depuis le fichier JSON :",
       error
-    );
-    res.status(500).send("Erreur lors de la récupération des données");
+    )
+    res.status(500).send("Erreur lors de la récupération des données")
   }
-});
+})
 
-module.exports = router;
+module.exports = router

@@ -5,7 +5,7 @@ const connection = mysql.createConnection({
   user: 'root',
   password: '',
   database: 'Yizbet'
-});
+})
 
 connection.connect((err) => {
   if (err) {
@@ -13,6 +13,6 @@ connection.connect((err) => {
     return;
   }
   console.log('DB Connecté à la base de données MySQL !')
-});
+})
 
 module.exports = connection

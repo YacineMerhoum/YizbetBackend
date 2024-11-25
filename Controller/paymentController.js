@@ -3,12 +3,13 @@ require('dotenv').config()
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
 const endpointSecret = process.env.STRIPE_WEBHOOK_SECRET
 
+// Création d’une session de paiement
 exports.createCheckoutSession = async (req, res, connection) => {
   try {
-    const { priceId, userId } = req.body;
+    const { priceId, userId } = req.body
     if (!userId) {
-      console.error('User ID not found.');
-      return res.status(400).json({ error: 'Utilisateur non connecté' });
+      console.error('User ID not found.')
+      return res.status(400).json({ error: 'Utilisateur non connecté' })
     }
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
@@ -22,103 +23,104 @@ exports.createCheckoutSession = async (req, res, connection) => {
       success_url: `${process.env.CLIENT_URL}?success=true`,
       cancel_url: `${process.env.CLIENT_URL}?canceled=true`,
       metadata: { userId: `${userId.id}` },
-    });
+    })
 
-    res.status(200).json({ url: session.url });
+    res.status(200).json({ url: session.url })
   } catch (error) {
-    console.error('Error creating checkout session:', error.message);
+    console.error('Error creating checkout session:', error.message)
     res.status(500).json({ error: error.message });
   }
-};
+}
 
+// Gestion des événements Stripe avec un webhook
 exports.webhookHandler = async (req, res, connection) => {
   const sig = req.headers['stripe-signature'];
   let event;
 
   try {
-    event = stripe.webhooks.constructEvent(req.body, sig, endpointSecret);
+    event = stripe.webhooks.constructEvent(req.body, sig, endpointSecret)
   } catch (err) {
-    console.error(`Webhook Error: ${err.message}`);
-    return res.status(400).send(`Webhook Error: ${err.message}`);
+    console.error(`Webhook Error: ${err.message}`)
+    return res.status(400).send(`Webhook Error: ${err.message}`)
   }
 
   try {
     switch (event.type) {
       case 'checkout.session.completed':
-        const session = event.data.object;
-        const userId = session.metadata.userId;
-        console.log(`Checkout session completed: ${session.id}`);
+        const session = event.data.object
+        const userId = session.metadata.userId
+        console.log(`Checkout session completed: ${session.id}`)
 
-        const paymentIntent = await stripe.paymentIntents.retrieve(session.payment_intent);
-        const amount = paymentIntent.amount;
-        console.log('userId', userId);
+        const paymentIntent = await stripe.paymentIntents.retrieve(session.payment_intent)
+        const amount = paymentIntent.amount
+        console.log('userId', userId)
 
         //Save paiement dans la table Payments
-        const paymentQuery = 'INSERT INTO payments (payment_intent_id, amount, user_id, created_at) VALUES (?, ?, ?, ?)';
+        const paymentQuery = 'INSERT INTO payments (payment_intent_id, amount, user_id, created_at) VALUES (?, ?, ?, ?)'
         connection.query(paymentQuery, [paymentIntent.id, amount, userId, new Date()], (err, results) => {
           if (err) {
-            console.error('Erreur lors de l\'insertion des données de paiement :', err);
+            console.error('Erreur lors de l\'insertion des données de paiement :', err)
           } else {
-            console.log('PaymentIntent enregistré avec succès!');
+            console.log('PaymentIntent enregistré avec succès!')
 
             // Vérifier le user dans la table Tokens
-            const checkUserQuery = 'SELECT COUNT(*) AS count FROM Tokens WHERE user_id = ?';
+            const checkUserQuery = 'SELECT COUNT(*) AS count FROM tokens WHERE user_id = ?'
             connection.query(checkUserQuery, [userId], (err, results) => {
               if (err) {
-                console.error('Erreur lors de la vérification de l\'utilisateur :', err);
-                return;
+                console.error('Erreur lors de la vérification de l\'utilisateur :', err)
+                return
               }
 
-              const userExists = results[0].count > 0;
+              const userExists = results[0].count > 0
 
               if (userExists) {
                 // Si l'utilisateur existe, mettre à jour la balance
-                const updateBalanceQuery = 'UPDATE Tokens SET balance = balance + ? WHERE user_id = ?';
+                const updateBalanceQuery = 'UPDATE tokens SET balance = balance + ? WHERE user_id = ?'
                 connection.query(updateBalanceQuery, [amount, userId], (err, results) => {
                   if (err) {
-                    console.error('Erreur lors de la mise à jour de la balance :', err);
+                    console.error('Erreur lors de la mise à jour de la balance :', err)
                   } else {
-                    console.log('Balance mise à jour avec succès!');
+                    console.log('Balance mise à jour avec succès!')
                   }
-                });
+                })
               } else {
                 // Si l'utilisateur n'existe pas, insérer une nouvelle ligne
-                const insertBalanceQuery = 'INSERT INTO Tokens (user_id, balance) VALUES (?, ?)';
+                const insertBalanceQuery = 'INSERT INTO tokens (user_id, balance) VALUES (?, ?)'
                 connection.query(insertBalanceQuery, [userId, amount], (err, results) => {
                   if (err) {
-                    console.error('Erreur lors de l\'insertion de la balance :', err);
+                    console.error('Erreur lors de l\'insertion de la balance :', err)
                   } else {
                     console.log('Balance insérée avec succès!');
                   }
-                });
+                })
               }
-            });
+            })
           }
-        });
-        break;
+        })
+        break
 
       case 'charge.succeeded':
-        const charge = event.data.object;
-        console.log(`Charge succeeded: ${charge.id}`);
-        break;
+        const charge = event.data.object
+        console.log(`Charge succeeded: ${charge.id}`)
+        break
       case 'charge.updated':
         const chargeUpdate = event.data.object;
-        console.log(`Charge succeeded: ${chargeUpdate.id}`);
-        break;
+        console.log(`Charge succeeded: ${chargeUpdate.id}`)
+        break
       case 'payment_intent.succeeded':
         const paymentIntentObj = event.data.object;
-        console.log(`PaymentIntent succeeded: ${paymentIntentObj.id}`);
+        console.log(`PaymentIntent succeeded: ${paymentIntentObj.id}`)
         break;
 
       default:
-        console.warn(`Unhandled event type ${event.type}`);
+        console.warn(`Unhandled event type ${event.type}`)
     }
 
-    res.status(200).json({ received: true });
+    res.status(200).json({ received: true })
   } catch (error) {
-    console.error('Erreur lors de la gestion de l\'événement Stripe :', error);
+    console.error('Erreur lors de la gestion de l\'événement Stripe :', error)
     if (!res.headersSent) {
-      res.status(500).json({ error: 'Erreur lors du traitement de l\'événement Stripe' });
+      res.status(500).json({ error: 'Erreur lors du traitement de l\'événement Stripe' })
     }
   }
-};
+}
